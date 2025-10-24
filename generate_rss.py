@@ -38,6 +38,7 @@ def create_feed_dir():
 def setup_driver():
     """Setup headless Chrome driver"""
     chrome_options = Options()
+    chrome_options.binary_location = "/usr/bin/chromium-browser"
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--no-sandbox')
     chrome_options.add_argument('--disable-dev-shm-usage')
