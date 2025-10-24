@@ -8,6 +8,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
 from feedgen.feed import FeedGenerator
 
 # Configuration
@@ -38,8 +39,12 @@ def setup_driver():
     chrome_options.add_argument(
         'user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
     )
+    # 👇 Specify Chromium binary location
+    chrome_options.binary_location = "/usr/bin/chromium-browser"
 
-    driver = webdriver.Chrome(options=chrome_options)
+    # 👇 Use Service for chromedriver
+    service = Service("/usr/bin/chromedriver")
+    driver = webdriver.Chrome(service=service, options=chrome_options)
     return driver
 
 
