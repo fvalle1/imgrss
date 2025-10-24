@@ -61,7 +61,6 @@ def relative_to_timestamp(text):
 def setup_driver():
     """Setup headless Chrome driver"""
     chrome_options = Options()
-    chrome_options.binary_location = "/usr/bin/chromium-browser"
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--no-sandbox')
     chrome_options.add_argument('--disable-dev-shm-usage')
@@ -80,7 +79,7 @@ def setup_driver():
 
     # 👇 Use Service for chromedriver
     if DEBUG:
-        driver = webdriver.Chrome(executable_path="/usr/bin/chromedriver", options=chrome_options)
+        driver = webdriver.Chrome(options=chrome_options)
     else:
         service = Service("/usr/bin/chromedriver")
         driver = webdriver.Chrome(service=service, options=chrome_options)
@@ -219,6 +218,7 @@ def generate_rss_for_account(driver, account_name):
             if post['caption']:
                 description += post['caption'].replace('\n', '<br/>')
 
+            print("Post description:", description)
             fe.description(description)
             fe.pubDate(post['date'])
 
@@ -257,6 +257,9 @@ def main():
             if i < len(accounts) - 1:
                 print(f"Waiting {DELAY_BETWEEN_ACCOUNTS} seconds...\n")
                 time.sleep(DELAY_BETWEEN_ACCOUNTS)
+            if DEBUG:
+                print("\n✓ DEBUG mode is ON - processed only the first account.\n")
+                break
 
         print(f"\n✓ Complete! ({success_count}/{len(accounts)} successful)")
 
