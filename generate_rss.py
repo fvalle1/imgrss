@@ -13,8 +13,8 @@ from selenium.webdriver.chrome.service import Service
 from feedgen.feed import FeedGenerator
 
 # Configuration
-ACCOUNTS_FILE = 'accounts.json'
-FEEDS_DIR = 'feeds'
+ACCOUNTS_FILE = "accounts.json"
+FEEDS_DIR = "feeds"
 MAX_POSTS = 20
 DELAY_BETWEEN_ACCOUNTS = 15
 try:
@@ -25,13 +25,13 @@ except:
 
 def load_accounts():
     """Load Instagram accounts from config file"""
-    
+
     os.getenv("ACCOUNTS")
     accs = os.getenv("ACCOUNTS").split(",")
     if len(accs) > 0 and accs[0] != "":
         return {"accounts": accs}
-    
-    with open(ACCOUNTS_FILE, 'r') as f:
+
+    with open(ACCOUNTS_FILE, "r") as f:
         return json.load(f)
 
 
@@ -61,14 +61,14 @@ def relative_to_timestamp(text):
 def setup_driver():
     """Setup headless Chrome driver"""
     chrome_options = Options()
-    chrome_options.add_argument('--headless')
-    chrome_options.add_argument('--no-sandbox')
-    chrome_options.add_argument('--disable-dev-shm-usage')
-    chrome_options.add_argument('--disable-gpu')
+    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument(
-        'user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+        "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     )
-    
+
     global DEBUG
     # 👇 Specify Chromium binary location
     if DEBUG:
@@ -94,6 +94,8 @@ def fetch_imginn_posts(driver, account_name):
     time.sleep(3)  # Wait for page to load
     driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
 
+    time.sleep(5) # Wait for posts to load
+
     try:
         WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.CLASS_NAME, "item"))
@@ -114,7 +116,7 @@ def fetch_imginn_posts(driver, account_name):
             # Extract image
             try:
                 img_elem = driver.find_element(By.XPATH, '//meta[@property="og:image"]')
-                profile_image_url = img_elem.get_attribute('content')
+                profile_image_url = img_elem.get_attribute("content")
             except Exception as e:
                 print(f"  ⚠ Error extracting image URL: {e}")
                 profile_image_url = None
@@ -170,11 +172,14 @@ def fetch_imginn_posts(driver, account_name):
 
 def get_profile_info(driver, account_name):
     """Extract profile information"""
-    profile_info = {'full_name': account_name, 'biography': f"Instagram posts from @{account_name}"}
+    profile_info = {
+        "full_name": account_name,
+        "biography": f"Instagram posts from @{account_name}",
+    }
 
     try:
         name_elem = driver.find_element(By.TAG_NAME, "h1")
-        profile_info['full_name'] = name_elem.text
+        profile_info["full_name"] = name_elem.text
     except:
         pass
 
@@ -199,28 +204,33 @@ def generate_rss_for_account(driver, account_name):
         # Create feed generator
         fg = FeedGenerator()
         fg.title(f"{profile_info['full_name']} (@{account_name}) - Instagram")
-        fg.link(href=f"https://www.instagram.com/{account_name}/", rel='alternate')
+        fg.link(href=f"https://www.instagram.com/{account_name}/", rel="alternate")
         fg.description(
             f"<img src={posts[0]['profile_image_url']}/> {profile_info['biography']}"
         )
-        fg.language('en')
+        fg.language("en")
 
         # Add posts to feed
         for post in posts:
             fe = fg.add_entry()
-            fe.id(post['instagram_url'])
+            fe.id(post["instagram_url"])
             fe.link(href=post["url"])
-            fe.title(post['caption'][:100] if post['caption'] else f"Post by @{account_name}")
+            fe.title(
+                post["caption"][:100] if post["caption"] else f"Post by @{account_name}"
+            )
 
             description = ""
-            if post['image_url']:
-                description += f'<img src="{post["image_url"]}" alt="Instagram post"/><br/><br/>'
-            if post['caption']:
-                description += post['caption'].replace('\n', '<br/>')
+            if post["image_url"]:
+                description += (
+                    f'<img src="{post["image_url"]}" alt="Instagram post"/><br/><br/>'
+                )
+            if post["caption"]:
+                description += post["caption"].replace("\n", "<br/>")
 
-            print("Post description:", description)
+            if DEBUG:
+                print("Post description:", description)
             fe.description(description)
-            fe.pubDate(post['date'])
+            fe.pubDate(post["date"])
 
         # Save RSS feed
         feed_path = os.path.join(FEEDS_DIR, f"{account_name}.xml")
@@ -235,7 +245,7 @@ def generate_rss_for_account(driver, account_name):
 
 def main():
     config = load_accounts()
-    accounts = config.get('accounts', [])
+    accounts = config.get("accounts", [])
 
     if not accounts:
         print("No accounts configured in accounts.json")
