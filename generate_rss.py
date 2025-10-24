@@ -17,7 +17,10 @@ ACCOUNTS_FILE = 'accounts.json'
 FEEDS_DIR = 'feeds'
 MAX_POSTS = 20
 DELAY_BETWEEN_ACCOUNTS = 5
-DEBUG = True
+try:
+    DEBUG = os.getenv("DEBUG", "False").lower() in ("true", "1", "t")
+except:
+    DEBUG = True
 
 
 def load_accounts():
