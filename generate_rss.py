@@ -1,6 +1,7 @@
 import os
 import json
 import time
+import random
 import regex as re
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
@@ -250,6 +251,8 @@ def main():
     if not accounts:
         print("No accounts configured in accounts.json")
         return
+
+    accounts = random.shuffle(accounts)
 
     create_feed_dir()
 
