@@ -18,7 +18,7 @@ FEEDS_DIR = 'feeds'
 MAX_POSTS = 20
 DELAY_BETWEEN_ACCOUNTS = 5
 try:
-    DEBUG = os.getenv("DEBUG", "False").lower() in ("true", "1", "t")
+    DEBUG = os.getenv("DEBUG", "True").lower() in ("true", "1", "t")
 except:
     DEBUG = True
 
@@ -91,6 +91,9 @@ def fetch_imginn_posts(driver, account_name):
     url = f"https://imginn.com/{account_name}/"
     driver.get(url)
 
+    time.sleep(3)  # Wait for page to load
+    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+
     try:
         WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.CLASS_NAME, "item"))
@@ -111,13 +114,14 @@ def fetch_imginn_posts(driver, account_name):
             # Extract image
             try:
                 img_elem = driver.find_element(By.XPATH, '//meta[@property="og:image"]')
-                image_url = img_elem.get_attribute('content')
+                profile_image_url = img_elem.get_attribute('content')
             except Exception as e:
                 print(f"  ⚠ Error extracting image URL: {e}")
-                image_url = None
+                profile_image_url = None
 
             try:
                 img_tag = post_elem.find_element(By.TAG_NAME, "img")
+                image_url = img_tag.get_attribute("src")
                 caption = img_tag.get_attribute("alt")
             except Exception as e:
                 print(f"  ⚠ Error extracting caption: {e}")
@@ -144,6 +148,7 @@ def fetch_imginn_posts(driver, account_name):
                 {
                     "shortcode": shortcode,
                     "url": post_url,
+                    "profile_image_url": profile_image_url,
                     "image_url": image_url,
                     "caption": caption,
                     "date": date,
@@ -151,7 +156,7 @@ def fetch_imginn_posts(driver, account_name):
                 }
             )
 
-            time.sleep(1)
+            time.sleep(5)
 
         except Exception as e:
             print(f"  ⚠ Error parsing post: {e}")
@@ -195,7 +200,9 @@ def generate_rss_for_account(driver, account_name):
         fg = FeedGenerator()
         fg.title(f"{profile_info['full_name']} (@{account_name}) - Instagram")
         fg.link(href=f"https://www.instagram.com/{account_name}/", rel='alternate')
-        fg.description(profile_info['biography'])
+        fg.description(
+            f"<img src={posts[0]['profile_image_url']}/> {profile_info['biography']}"
+        )
         fg.language('en')
 
         # Add posts to feed
