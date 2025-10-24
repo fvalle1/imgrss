@@ -20,6 +20,12 @@ DELAY_BETWEEN_ACCOUNTS = 5
 
 def load_accounts():
     """Load Instagram accounts from config file"""
+    
+    os.getenv("ACCOUNTS")
+    accs = os.getenv("ACCOUNTS").split(",")
+    if len(accs) > 0 and accs[0] != "":
+        return {"accounts": accs}
+    
     with open(ACCOUNTS_FILE, 'r') as f:
         return json.load(f)
 
@@ -45,20 +51,22 @@ def setup_driver():
     # 👇 Use Service for chromedriver
     service = Service("/usr/bin/chromedriver")
     driver = webdriver.Chrome(service=service, options=chrome_options)
+    # driver = webdriver.Chrome(options=chrome_options)
     return driver
 
 
 def fetch_imginn_posts(driver, account_name):
-    """Fetch posts from Imginn using Selenium"""
+    """Fetch posts from Imginn account and open each post page"""
     url = f"https://imginn.com/{account_name}/"
     driver.get(url)
 
-    # Wait for posts to load
     try:
-        WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, "item")))
-        time.sleep(2)  # Additional wait for JavaScript
+        WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.CLASS_NAME, "item"))
+        )
+        time.sleep(2)
     except:
-        raise Exception("Failed to load posts")
+        raise Exception("Failed to load account posts")
 
     posts = []
     post_elements = driver.find_elements(By.CLASS_NAME, "item")[:MAX_POSTS]
@@ -71,34 +79,39 @@ def fetch_imginn_posts(driver, account_name):
 
             # Extract image
             try:
-                img_elem = post_elem.find_element(By.TAG_NAME, "img")
-                image_url = img_elem.get_attribute("src")
+                img_elem = driver.find_element(By.XPATH, '//meta[@property="og:image"]')
+                image_url = img_elem.get_attribute('content')
             except:
                 image_url = None
 
-            # Extract caption
             try:
-                caption_elem = post_elem.find_element(By.CLASS_NAME, "sum")
-                caption = caption_elem.text
+                img_tag = post_elem.find_element(By.TAG_NAME, "img")
+                caption = img_tag.get_attribute("alt")
             except:
                 caption = ""
 
             # Extract shortcode
-            shortcode = post_url.split('/')[-2] if '/p/' in post_url else post_url.split('/')[-1]
+            shortcode = (
+                post_url.split("/")[-2]
+                if "/p/" in post_url
+                else post_url.split("/")[-1]
+            )
 
             posts.append(
                 {
-                    'shortcode': shortcode,
-                    'url': post_url,
-                    'image_url': image_url,
-                    'caption': caption,
-                    'date': datetime.now(timezone.utc),
-                    'instagram_url': f"https://www.instagram.com/p/{shortcode}/",
+                    "shortcode": shortcode,
+                    "url": post_url,
+                    "image_url": image_url,
+                    "caption": caption,
+                    "date": datetime.now(timezone.utc),
+                    "instagram_url": f"https://www.instagram.com/p/{shortcode}/",
                 }
             )
 
+            time.sleep(1)
+
         except Exception as e:
-            print(f"  ⚠ Error parsing post: {str(e)}")
+            print(f"  ⚠ Error parsing post: {e}")
             continue
 
     return posts
