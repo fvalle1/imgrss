@@ -16,7 +16,7 @@ from feedgen.feed import FeedGenerator
 ACCOUNTS_FILE = 'accounts.json'
 FEEDS_DIR = 'feeds'
 MAX_POSTS = 20
-DELAY_BETWEEN_ACCOUNTS = 5
+DELAY_BETWEEN_ACCOUNTS = 15
 try:
     DEBUG = os.getenv("DEBUG", "True").lower() in ("true", "1", "t")
 except:
