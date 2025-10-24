@@ -252,7 +252,7 @@ def main():
         print("No accounts configured in accounts.json")
         return
 
-    accounts = random.shuffle(accounts)
+    random.shuffle(accounts)
 
     create_feed_dir()
 
