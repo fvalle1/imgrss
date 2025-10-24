@@ -20,23 +20,35 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
 
-      - name: Install dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y chromium-browser chromium-chromedriver
-          pip install selenium feedgen
-
       - name: Create accounts.json if not exists
         run: |
           if [ ! -f accounts.json ]; then
             echo '{"accounts": ["example_account"]}' > accounts.json
           fi
 
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y chromium-browser chromium-chromedriver
+          pip install selenium feedgen
+
+      - name: Configure Chrome for Selenium
+        run: |
+          echo "Checking Chromium installation..."
+          which chromium-browser || which chromium || true
+          which chromedriver
+          echo "Chromium version:"
+          chromium-browser --version || chromium --version || true
+          echo "Chromedriver version:"
+          chromedriver --version
+
       - name: Generate RSS feeds
         env:
           CHROME_BIN: /usr/bin/chromium-browser
           CHROMEDRIVER_PATH: /usr/bin/chromedriver
         run: |
+          sed -i 's/webdriver.Chrome(options=chrome_options)/webdriver.Chrome(executable_path="\/usr\/bin\/chromedriver", options=chrome_options)/' generate_rss.py
+          sed -i 's/chrome_options = Options()/chrome_options = Options()\n    chrome_options.binary_location = "\/usr\/bin\/chromium-browser"/' generate_rss.py
           python generate_rss.py
 
       - name: Upload feeds as artifact
