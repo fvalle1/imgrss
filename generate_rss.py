@@ -1,7 +1,8 @@
 import os
 import json
 import time
-from datetime import datetime, timezone
+import regex as re
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -16,6 +17,7 @@ ACCOUNTS_FILE = 'accounts.json'
 FEEDS_DIR = 'feeds'
 MAX_POSTS = 20
 DELAY_BETWEEN_ACCOUNTS = 5
+DEBUG = True
 
 
 def load_accounts():
@@ -35,10 +37,27 @@ def create_feed_dir():
     Path(FEEDS_DIR).mkdir(exist_ok=True)
 
 
+def relative_to_timestamp(text):
+    now = datetime.now(timezone.utc)
+    # Match numbers and units
+    match = re.match(r"(\d+)\s+(\w+)\s+ago", text)
+    if not match:
+        return None
+    value, unit = int(match.group(1)), match.group(2).lower()
+    if "day" in unit:
+        return now - timedelta(days=value)
+    elif "hour" in unit:
+        return now - timedelta(hours=value)
+    elif "minute" in unit:
+        return now - timedelta(minutes=value)
+    elif "second" in unit:
+        return now - timedelta(seconds=value)
+    return None
+
+
 def setup_driver():
     """Setup headless Chrome driver"""
     chrome_options = Options()
-    chrome_options.binary_location = "/usr/bin/chromium-browser"
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--no-sandbox')
     chrome_options.add_argument('--disable-dev-shm-usage')
@@ -46,13 +65,21 @@ def setup_driver():
     chrome_options.add_argument(
         'user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
     )
+    
+    global DEBUG
     # 👇 Specify Chromium binary location
-    chrome_options.binary_location = "/usr/bin/chromium-browser"
+    if DEBUG:
+        print("Running in DEBUG mode - using local Chrome installation")
+        pass
+    else:
+        chrome_options.binary_location = "/usr/bin/chromium-browser"
 
     # 👇 Use Service for chromedriver
-    service = Service("/usr/bin/chromedriver")
-    driver = webdriver.Chrome(service=service, options=chrome_options)
-    # driver = webdriver.Chrome(options=chrome_options)
+    if DEBUG:
+        driver = webdriver.Chrome(options=chrome_options)
+    else:
+        service = Service("/usr/bin/chromedriver")
+        driver = webdriver.Chrome(service=service, options=chrome_options)
     return driver
 
 
@@ -82,14 +109,26 @@ def fetch_imginn_posts(driver, account_name):
             try:
                 img_elem = driver.find_element(By.XPATH, '//meta[@property="og:image"]')
                 image_url = img_elem.get_attribute('content')
-            except:
+            except Exception as e:
+                print(f"  ⚠ Error extracting image URL: {e}")
                 image_url = None
 
             try:
                 img_tag = post_elem.find_element(By.TAG_NAME, "img")
                 caption = img_tag.get_attribute("alt")
-            except:
+            except Exception as e:
+                print(f"  ⚠ Error extracting caption: {e}")
                 caption = ""
+
+            try:
+                action_elem = post_elem.find_element(By.CLASS_NAME, "action")
+                time_tag = action_elem.find_element(By.CLASS_NAME, "time")
+                date = time_tag.get_attribute("innerText")
+                print("Extracted date text:", date)
+                date = relative_to_timestamp(date)
+            except Exception as e:
+                print(f"  ⚠ Error extracting date: {e}")
+                date = datetime.now(timezone.utc)
 
             # Extract shortcode
             shortcode = (
@@ -104,7 +143,7 @@ def fetch_imginn_posts(driver, account_name):
                     "url": post_url,
                     "image_url": image_url,
                     "caption": caption,
-                    "date": datetime.now(timezone.utc),
+                    "date": date,
                     "instagram_url": f"https://www.instagram.com/p/{shortcode}/",
                 }
             )
@@ -114,6 +153,9 @@ def fetch_imginn_posts(driver, account_name):
         except Exception as e:
             print(f"  ⚠ Error parsing post: {e}")
             continue
+
+        if DEBUG:
+            break
 
     return posts
 
@@ -157,7 +199,7 @@ def generate_rss_for_account(driver, account_name):
         for post in posts:
             fe = fg.add_entry()
             fe.id(post['instagram_url'])
-            fe.link(href=post['instagram_url'])
+            fe.link(href=post["url"])
             fe.title(post['caption'][:100] if post['caption'] else f"Post by @{account_name}")
 
             description = ""
@@ -167,7 +209,7 @@ def generate_rss_for_account(driver, account_name):
                 description += post['caption'].replace('\n', '<br/>')
 
             fe.description(description)
-            fe.published(post['date'])
+            fe.pubDate(post['date'])
 
         # Save RSS feed
         feed_path = os.path.join(FEEDS_DIR, f"{account_name}.xml")

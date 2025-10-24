@@ -30,7 +30,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y chromium-browser chromium-chromedriver
-          pip install selenium feedgen
+          pip install --no-cache-dir -r requirements.txt 
 
       - name: Configure Chrome for Selenium
         run: |
@@ -46,6 +46,7 @@ jobs:
         env:
           CHROME_BIN: /usr/bin/chromium-browser
           CHROMEDRIVER_PATH: /usr/bin/chromedriver
+          ACCOUNTS: ${{ secrets.ACCOUNTS }}
         run: |
           sed -i 's/webdriver.Chrome(options=chrome_options)/webdriver.Chrome(executable_path="\/usr\/bin\/chromedriver", options=chrome_options)/' generate_rss.py
           sed -i 's/chrome_options = Options()/chrome_options = Options()\n    chrome_options.binary_location = "\/usr\/bin\/chromium-browser"/' generate_rss.py
