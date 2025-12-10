@@ -102,8 +102,8 @@ def fetch_imginn_posts(driver, account_name):
             EC.presence_of_element_located((By.CLASS_NAME, "item"))
         )
         time.sleep(2)
-    except:
-        raise Exception("Failed to load account posts")
+    except Exception as e:
+        raise Exception("Failed to load account posts", str(e))
 
     posts = []
     post_elements = driver.find_elements(By.CLASS_NAME, "item")[:MAX_POSTS]
