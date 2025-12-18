@@ -11,6 +11,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
+from selenium_stealth import stealth
+import undetected_chromedriver as uc
 from feedgen.feed import FeedGenerator
 
 # Configuration
@@ -61,13 +63,21 @@ def relative_to_timestamp(text):
 
 def setup_driver():
     """Setup headless Chrome driver"""
-    chrome_options = Options()
-    chrome_options.add_argument("--headless")
+    chrome_options = uc.ChromeOptions()
+    chrome_options.add_argument("--headless=new")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument("--disable-blink-features=AutomationControlled")
+    chrome_options.add_argument("--disable-web-security")
+    chrome_options.add_argument("--allow-running-insecure-content")
+    chrome_options.add_argument("--window-size=1920,1080")
+    chrome_options.add_argument("start-maximized")
+    chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    chrome_options.add_experimental_option("useAutomationExtension", False)
+
     chrome_options.add_argument(
-        "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     )
 
     global DEBUG
@@ -80,10 +90,25 @@ def setup_driver():
 
     # 👇 Use Service for chromedriver
     if DEBUG:
-        driver = webdriver.Chrome(options=chrome_options)
+        driver = uc.Chrome(options=chrome_options, driver_executable_path=None)
     else:
         service = Service("/usr/bin/chromedriver")
-        driver = webdriver.Chrome(service=service, options=chrome_options)
+        driver = uc.Chrome(service=service, options=chrome_options)
+
+    driver.execute_script(
+        "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
+    )
+
+    stealth(
+        driver,
+        languages=["en-US", "en"],
+        vendor="Google Inc.",
+        platform="Win32",
+        webgl_vendor="Intel Inc.",
+        renderer="Intel Iris OpenGL Engine",
+        fix_hairline=True
+    )
+
     return driver
 
 
@@ -92,11 +117,37 @@ def fetch_imginn_posts(driver, account_name):
     url = f"https://imginn.com/{account_name}/"
     driver.get(url)
 
-    time.sleep(3)  # Wait for page to load
+    # Check if we're on a Cloudflare challenge page
+    try:
+        challenge_element = driver.find_element(By.CLASS_NAME, "main-wrapper")
+        if "Verifying you are human" in driver.page_source:
+            print(f"  🔒 Cloudflare challenge detected for @{account_name}, waiting...")
+
+            # Wait up to 60 seconds for the challenge to complete
+            WebDriverWait(driver, 60).until_not(
+                EC.presence_of_element_located((By.CLASS_NAME, "lds-ring"))
+            )
+
+            # Additional wait for redirect
+            time.sleep(10)
+
+            # Check if we're still on challenge page
+            if "Verifying you are human" in driver.page_source:
+                print(f"  ❌ Challenge not completed for @{account_name}")
+                
+                with open("debug_imginn.html", "w", encoding="utf-8") as f:
+                    f.write(driver.page_source)
+                raise Exception("Cloudflare challenge timeout")
+
+            print(f"  ✅ Challenge completed for @{account_name}")
+    except:
+        pass  # No challenge page detected
+
+    time.sleep(5)  # Wait for page to load
     driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+    time.sleep(5)
 
-    time.sleep(5) # Wait for posts to load
-
+    
     try:
         WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.CLASS_NAME, "item"))

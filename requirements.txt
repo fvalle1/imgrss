@@ -1,3 +1,5 @@
 feedgen
 selenium
+selenium_stealth
 regex
+undetected_chromedriver
