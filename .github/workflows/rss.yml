@@ -29,23 +29,13 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y chromium-browser chromium-chromedriver
           pip install --no-cache-dir -r requirements.txt 
-
-      - name: Configure Chrome for Selenium
-        run: |
-          echo "Checking Chromium installation..."
-          which chromium-browser || which chromium || true
-          which chromedriver
-          echo "Chromium version:"
-          chromium-browser --version || chromium --version || true
-          echo "Chromedriver version:"
-          chromedriver --version
 
       - name: Generate RSS feeds
         env:
-          CHROME_BIN: /usr/bin/chromium-browser
-          CHROMEDRIVER_PATH: /usr/bin/chromedriver
+          IG_USERNAME: ${{ secrets.IG_USERNAME }}
+          IG_PASSWORD: ${{ secrets.IG_PASSWORD }}
+          IG_2FA_SECRET: ${{ secrets.IG_2FA_SECRET }}
           ACCOUNTS: ${{ secrets.ACCOUNTS }}
           DEBUG: False
         run: |

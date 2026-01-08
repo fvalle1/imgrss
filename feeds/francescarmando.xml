@@ -1,132 +1,112 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
-    <title>Francesca Armando (@francescarmando) - Instagram</title>
+    <title>@francescarmando - Instagram</title>
     <link>https://www.instagram.com/francescarmando/</link>
-    <description>&lt;img src=https://s3.imginn.com/553582227_18532549429048693_4072424902898301686_n.jpg?t51.2885-19/553582227_18532549429048693_4072424902898301686_n.jpg?stp=dst-jpg_e0_s150x150_tt6&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&amp;_nc_ht=scontent-atl3-2.cdninstagram.com&amp;_nc_cat=101&amp;_nc_oc=Q6cZ2QGvUyfyLbTcBSDp3eZEbze-EN_OnhT-BImwvNzBJmkTby3fYTE6eKeTAtHtKjgNZ6kokGw2UUzMHAiCc1teczoU&amp;_nc_ohc=_vurTqy16WMQ7kNvwFby-Mm&amp;_nc_gid=0ax8kJfzMClbmSzubGMS4g&amp;edm=AOQ1c0wBAAAA&amp;ccb=7-5&amp;oh=00_AffJoORzAMfGbYrFIytOs2AzQCIw_VNp5zj9IKwfzZfQ6Q&amp;oe=69015B3C&amp;_nc_sid=8b3546/&gt; Instagram posts from @francescarmando</description>
+    <description>Instagram posts from @francescarmando</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Oct 2025 12:26:05 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Jan 2026 20:42:40 +0000</lastBuildDate>
     <item>
-      <title>Post by @francescarmando</title>
-      <link>https://imginn.com/p/C9w1f_YtsDp/</link>
-      <description>&lt;img src="https://s3.imginn.com/452640514_413762778371651_4107574045756448143_n.jpg?t51.29350-15/452640514_413762778371651_4107574045756448143_n.jpg?stp=c0.180.1440.1440a_dst-jpg_e35_s640x640_sh0.08_tt6&amp;_nc_ht=scontent-ord5-1.cdninstagram.com&amp;_nc_cat=111&amp;_nc_oc=Q6cZ2QH8YyGbyyC7Wh5ctyKSaPrkD1mB1o0ZhIKQrREzE1_Im4HRGjumRMuhwNWshqeysGUUif3l1Fluryr7_bKMp0Rs&amp;_nc_ohc=l5TijnTtfOcQ7kNvwFleEYM&amp;_nc_gid=86yuweoW8L5K_WGqV7uwRw&amp;edm=APU89FABAAAA&amp;ccb=7-5&amp;ig_cache_key=MzQxODQ2NzQwMjk2MDU3OTA5Nw%3D%3D.3.c-ccb7-5&amp;oh=00_Afc4Y7lvEOdsqxWUW0RzMs4lM_Z7GwpvxC5wqWF5hzpcRA&amp;oe=69054FA8&amp;_nc_sid=bc0c2c" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;</description>
-      <guid isPermaLink="false">https://www.instagram.com/p/C9w1f_YtsDp/</guid>
-    </item>
-    <item>
-      <title>Post by @francescarmando</title>
-      <link>https://imginn.com/p/C-h0w7UtCBd/</link>
-      <description>&lt;img src="https://s3.imginn.com/455027290_978639207344104_7123617029215395468_n.jpg?t51.29350-15/455027290_978639207344104_7123617029215395468_n.jpg?stp=c0.180.1440.1440a_dst-jpg_e35_s640x640_sh0.08_tt6&amp;_nc_ht=scontent-ord5-2.cdninstagram.com&amp;_nc_cat=104&amp;_nc_oc=Q6cZ2QH8YyGbyyC7Wh5ctyKSaPrkD1mB1o0ZhIKQrREzE1_Im4HRGjumRMuhwNWshqeysGUUif3l1Fluryr7_bKMp0Rs&amp;_nc_ohc=ide3hnzJ0yUQ7kNvwHA3CVx&amp;_nc_gid=86yuweoW8L5K_WGqV7uwRw&amp;edm=APU89FABAAAA&amp;ccb=7-5&amp;ig_cache_key=MzQzMjI1NjQ0MzA4NjQxNTQ2Mg%3D%3D.3.c-ccb7-5&amp;oh=00_AfeIov_NPbewq9DvW8TAaC6Z0lKyfd3yZ6EFO3S4fNhoUQ&amp;oe=69052C59&amp;_nc_sid=bc0c2c" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;</description>
-      <guid isPermaLink="false">https://www.instagram.com/p/C-h0w7UtCBd/</guid>
-    </item>
-    <item>
-      <title>Post by @francescarmando</title>
-      <link>https://imginn.com/p/C-nIiFXNoMu/</link>
-      <description>&lt;img src="https://s3.imginn.com/455029892_1533492140938107_6422634686848317746_n.jpg?t51.29350-15/455029892_1533492140938107_6422634686848317746_n.jpg?stp=c0.180.1440.1440a_dst-jpg_e35_s640x640_sh0.08_tt6&amp;_nc_ht=scontent-ord5-2.cdninstagram.com&amp;_nc_cat=103&amp;_nc_oc=Q6cZ2QH8YyGbyyC7Wh5ctyKSaPrkD1mB1o0ZhIKQrREzE1_Im4HRGjumRMuhwNWshqeysGUUif3l1Fluryr7_bKMp0Rs&amp;_nc_ohc=uOmDWnt7LAkQ7kNvwEWQVry&amp;_nc_gid=86yuweoW8L5K_WGqV7uwRw&amp;edm=APU89FABAAAA&amp;ccb=7-5&amp;ig_cache_key=MzQzMzc1MDc1ODg0NTMzNTYyOA%3D%3D.3.c-ccb7-5&amp;oh=00_AfdkSWSWMliKLcrrC-LUr-ht0ZGgOGBhdzL71FC7sKmItQ&amp;oe=69052A36&amp;_nc_sid=bc0c2c" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;</description>
-      <guid isPermaLink="false">https://www.instagram.com/p/C-nIiFXNoMu/</guid>
-    </item>
-    <item>
-      <title>Post by @francescarmando</title>
-      <link>https://imginn.com/p/C-2acnvNROA/</link>
-      <description>&lt;img src="https://s3.imginn.com/456118592_2188846244825086_8406590878823059271_n.jpg?t51.29350-15/456118592_2188846244825086_8406590878823059271_n.jpg?stp=c0.180.1440.1440a_dst-jpg_e35_s640x640_sh0.08_tt6&amp;_nc_ht=scontent-ord5-3.cdninstagram.com&amp;_nc_cat=110&amp;_nc_oc=Q6cZ2QH8YyGbyyC7Wh5ctyKSaPrkD1mB1o0ZhIKQrREzE1_Im4HRGjumRMuhwNWshqeysGUUif3l1Fluryr7_bKMp0Rs&amp;_nc_ohc=tRIF-g3oeSwQ7kNvwGkQq6C&amp;_nc_gid=86yuweoW8L5K_WGqV7uwRw&amp;edm=APU89FABAAAA&amp;ccb=7-5&amp;ig_cache_key=MzQzODA1MTY3MDc2MTk0OTYyNw%3D%3D.3.c-ccb7-5&amp;oh=00_Afd6NcYmJZwoll5e8YeUDZeO3bwzftT3V_-g3QhngO1Nhg&amp;oe=69053EDC&amp;_nc_sid=bc0c2c" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;</description>
-      <guid isPermaLink="false">https://www.instagram.com/p/C-2acnvNROA/</guid>
-    </item>
-    <item>
-      <title>Post by @francescarmando</title>
-      <link>https://imginn.com/p/C-7OKeLOAd7/</link>
-      <description>&lt;img src="https://s3.imginn.com/455961516_564986559195980_631740911263362586_n.jpg?t51.29350-15/455961516_564986559195980_631740911263362586_n.jpg?stp=c0.130.1440.1440a_dst-jpg_e35_s640x640_sh0.08_tt6&amp;_nc_ht=scontent-ord5-1.cdninstagram.com&amp;_nc_cat=108&amp;_nc_oc=Q6cZ2QH8YyGbyyC7Wh5ctyKSaPrkD1mB1o0ZhIKQrREzE1_Im4HRGjumRMuhwNWshqeysGUUif3l1Fluryr7_bKMp0Rs&amp;_nc_ohc=tI6OXnney-UQ7kNvwEjkPCn&amp;_nc_gid=86yuweoW8L5K_WGqV7uwRw&amp;edm=APU89FABAAAA&amp;ccb=7-5&amp;ig_cache_key=MzQzOTQwNTAyNTcxOTkxNzk1Mg%3D%3D.3.c-ccb7-5&amp;oh=00_Afd6cSxJvVClQhJO2equWODuM5lbng-ngal9-J5z3EpoFg&amp;oe=69054F3A&amp;_nc_sid=bc0c2c" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;</description>
-      <guid isPermaLink="false">https://www.instagram.com/p/C-7OKeLOAd7/</guid>
-    </item>
-    <item>
-      <title>Post by @francescarmando</title>
-      <link>https://imginn.com/p/C_Kv4RzOMDC/</link>
-      <description>&lt;img src="https://s3.imginn.com/457132574_1896802334172960_8672717384087420432_n.jpg?t51.29350-15/457132574_1896802334172960_8672717384087420432_n.jpg?stp=c0.180.1440.1440a_dst-jpg_e35_s640x640_sh0.08_tt6&amp;_nc_ht=scontent-ord5-3.cdninstagram.com&amp;_nc_cat=100&amp;_nc_oc=Q6cZ2QH8YyGbyyC7Wh5ctyKSaPrkD1mB1o0ZhIKQrREzE1_Im4HRGjumRMuhwNWshqeysGUUif3l1Fluryr7_bKMp0Rs&amp;_nc_ohc=VoKyV-5nhf8Q7kNvwG-SPx_&amp;_nc_gid=86yuweoW8L5K_WGqV7uwRw&amp;edm=APU89FABAAAA&amp;ccb=7-5&amp;ig_cache_key=MzQ0Mzc3NTQzMDU1MTI1MTkwMA%3D%3D.3.c-ccb7-5&amp;oh=00_Afcd2EBtZvnGpGw7gmh_ckqHkui6nflT1cCGL73jlKjBzQ&amp;oe=69054248&amp;_nc_sid=bc0c2c" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;</description>
-      <guid isPermaLink="false">https://www.instagram.com/p/C_Kv4RzOMDC/</guid>
-    </item>
-    <item>
-      <title>Post by @francescarmando</title>
-      <link>https://imginn.com/p/C_xdUUuNDsk/</link>
-      <description>&lt;img src="https://s3.imginn.com/459312936_755920086613195_5673731355445532185_n.jpg?t51.29350-15/459312936_755920086613195_5673731355445532185_n.jpg?stp=c0.180.1440.1440a_dst-jpg_e35_s640x640_sh0.08_tt6&amp;_nc_ht=scontent-ord5-3.cdninstagram.com&amp;_nc_cat=107&amp;_nc_oc=Q6cZ2QH8YyGbyyC7Wh5ctyKSaPrkD1mB1o0ZhIKQrREzE1_Im4HRGjumRMuhwNWshqeysGUUif3l1Fluryr7_bKMp0Rs&amp;_nc_ohc=dvrh_eJm-cgQ7kNvwELnyUl&amp;_nc_gid=86yuweoW8L5K_WGqV7uwRw&amp;edm=APU89FABAAAA&amp;ccb=7-5&amp;ig_cache_key=MzQ1NDY3MTMyMDQwMDY5ODY4NA%3D%3D.3.c-ccb7-5&amp;oh=00_Aff-hK510iMxf9-5xv_Hdij4wtPZL9C3-CrWafP3cIzQJw&amp;oe=69051C88&amp;_nc_sid=bc0c2c" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;</description>
-      <guid isPermaLink="false">https://www.instagram.com/p/C_xdUUuNDsk/</guid>
-    </item>
-    <item>
-      <title>Post by @francescarmando</title>
-      <link>https://imginn.com/p/DATnrqXNR9V/</link>
-      <description>&lt;img src="https://s3.imginn.com/461068683_1088415356183697_7341739435713266585_n.jpg?t51.29350-15/461068683_1088415356183697_7341739435713266585_n.jpg?stp=c0.177.1440.1440a_dst-jpg_e35_s640x640_sh0.08_tt6&amp;_nc_ht=scontent-ord5-3.cdninstagram.com&amp;_nc_cat=109&amp;_nc_oc=Q6cZ2QH8YyGbyyC7Wh5ctyKSaPrkD1mB1o0ZhIKQrREzE1_Im4HRGjumRMuhwNWshqeysGUUif3l1Fluryr7_bKMp0Rs&amp;_nc_ohc=HmxeWY5vDLIQ7kNvwGta_iN&amp;_nc_gid=86yuweoW8L5K_WGqV7uwRw&amp;edm=APU89FABAAAA&amp;ccb=7-5&amp;ig_cache_key=MzQ2NDI4NzAzNzg5NDc0MjA3NQ%3D%3D.3.c-ccb7-5&amp;oh=00_AfdlP0huTU203KpZCAwxhrGE5zA2UnkVqwZ350Y6TFNRUg&amp;oe=69053B95&amp;_nc_sid=bc0c2c" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;</description>
-      <guid isPermaLink="false">https://www.instagram.com/p/DATnrqXNR9V/</guid>
-    </item>
-    <item>
-      <title>Obrigado Porto🇵🇹🍷</title>
-      <link>https://imginn.com/p/DB87hlhNia1/</link>
-      <description>&lt;img src="https://s3.imginn.com/465659738_1315554749468206_4976901215235258452_n.jpg?t51.29350-15/465659738_1315554749468206_4976901215235258452_n.jpg?stp=c0.180.1440.1440a_dst-jpg_e35_s640x640_sh0.08_tt6&amp;_nc_ht=scontent-ord5-3.cdninstagram.com&amp;_nc_cat=110&amp;_nc_oc=Q6cZ2QE7xCvInlaIrJubadIzh52nwMb6Ol1EjUAYdDTqI-Qve7KtfJ4H-RGkN9Sr0Gyu3b1IyUkX1jCVr5P6ow0Ov8SC&amp;_nc_ohc=5j8AmoABZRUQ7kNvwHtAwpm&amp;_nc_gid=iguB3XHVF4y_38jNCkqQRg&amp;edm=APU89FABAAAA&amp;ccb=7-5&amp;ig_cache_key=MzQ5MzY2MDkwMDU5NjI2NDYxMw%3D%3D.3.c-ccb7-5&amp;oh=00_Afdf6DSIr3NKCC8JeVhW65AnLSItBZaF-wsuDF_VOzKLAQ&amp;oe=69053209&amp;_nc_sid=bc0c2c" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;Obrigado Porto🇵🇹🍷</description>
-      <guid isPermaLink="false">https://www.instagram.com/p/DB87hlhNia1/</guid>
-    </item>
-    <item>
-      <title>Scorri per vedere il panorama da lassù ➡️•••#porto #oproto #portugal #obrigado #trip #travel #tram #</title>
-      <link>https://imginn.com/p/DCCL6eUt2tX/</link>
-      <description>&lt;img src="https://s3.imginn.com/465201607_920009886684598_7455941706864438872_n.jpg?t51.29350-15/465201607_920009886684598_7455941706864438872_n.jpg?stp=c0.180.1440.1440a_dst-jpg_e35_s640x640_sh0.08_tt6&amp;_nc_ht=scontent-ord5-3.cdninstagram.com&amp;_nc_cat=110&amp;_nc_oc=Q6cZ2QE7xCvInlaIrJubadIzh52nwMb6Ol1EjUAYdDTqI-Qve7KtfJ4H-RGkN9Sr0Gyu3b1IyUkX1jCVr5P6ow0Ov8SC&amp;_nc_ohc=CTFj45pNSHoQ7kNvwEMVnDp&amp;_nc_gid=iguB3XHVF4y_38jNCkqQRg&amp;edm=APU89FABAAAA&amp;ccb=7-5&amp;ig_cache_key=MzQ5NDY0MjEwMTU3MDA1MjI1Mg%3D%3D.3.c-ccb7-5&amp;oh=00_Affj84I26kRntqvx-H99XjtTes42ZpoN-9SSz7eeBHlm-g&amp;oe=6905383F&amp;_nc_sid=bc0c2c" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;Scorri per vedere il panorama da lassù ➡️•••#porto #oproto #portugal #obrigado #trip #travel #tram #view #portogallo</description>
+      <title>Scorri per vedere il panorama da lassù ➡️
+•
+•
+•
+#porto #oproto #portugal #obrigado #trip  #travel #t</title>
+      <link>https://www.instagram.com/p/DCCL6eUt2tX/</link>
+      <description>&lt;img src="https://scontent-mxp2-1.cdninstagram.com/v/t51.29350-15/465201607_920009886684598_7455941706864438872_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&amp;efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0uaW1hZ2VfdXJsZ2VuLjE0NDB4MTgwMC5zZHIuZjI5MzUwLmRlZmF1bHRfaW1hZ2UuYzIifQ&amp;_nc_ht=scontent-mxp2-1.cdninstagram.com&amp;_nc_cat=110&amp;_nc_oc=Q6cZ2QEI0uSnbrIP9UmXssSFqfehMXb2Zccz9aZWBo3G1RezHR-nA1iIvmo2Mq4391xskNUGu4ytMYRZTSXh-UedcRg-&amp;_nc_ohc=rk7VxNhONggQ7kNvwHY-M45&amp;_nc_gid=FNGg9IKrukvkvF_e8u7y_A&amp;edm=ABmJApABAAAA&amp;ccb=7-5&amp;ig_cache_key=MzQ5NDY0MjEwMTU3MDA1MjI1Mg%3D%3D.3-ccb7-5&amp;oh=00_Afpg-coh1nWP9qtStnQ_wQupTYdM3lA9eZjduh1QB_wTsw&amp;oe=6965E63F&amp;_nc_sid=b41fef" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;Scorri per vedere il panorama da lassù ➡️&lt;br/&gt;•&lt;br/&gt;•&lt;br/&gt;•&lt;br/&gt;#porto #oproto #portugal #obrigado #trip  #travel #tram #view #portogallo</description>
       <guid isPermaLink="false">https://www.instagram.com/p/DCCL6eUt2tX/</guid>
+      <pubDate>Wed, 06 Nov 2024 15:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Twenty-five🥳🎂</title>
-      <link>https://imginn.com/p/DFUwO1rtf7l/</link>
-      <description>&lt;img src="https://s3.imginn.com/475241967_18486807268048693_7701900158153768535_n.jpg?t51.2885-15/475241967_18486807268048693_7701900158153768535_n.jpg?stp=c0.180.1440.1440a_dst-jpg_e35_s320x320_tt6&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyLmY3NTc2MS5kZWZhdWx0X2ltYWdlLmMyIn0&amp;_nc_ht=scontent-ord5-1.cdninstagram.com&amp;_nc_cat=101&amp;_nc_oc=Q6cZ2QE7xCvInlaIrJubadIzh52nwMb6Ol1EjUAYdDTqI-Qve7KtfJ4H-RGkN9Sr0Gyu3b1IyUkX1jCVr5P6ow0Ov8SC&amp;_nc_ohc=cWpVrSlovcoQ7kNvwGDmjSH&amp;_nc_gid=iguB3XHVF4y_38jNCkqQRg&amp;edm=APU89FABAAAA&amp;ccb=7-5&amp;oh=00_AffzrkqPKoaH0pELIC1ulwG9jP3RQrjnsTvccLDW5c6A3g&amp;oe=6905399C&amp;_nc_sid=bc0c2c" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;Twenty-five🥳🎂</description>
+      <link>https://www.instagram.com/p/DFUwO1rtf7l/</link>
+      <description>&lt;img src="https://scontent-mxp2-1.cdninstagram.com/v/t51.75761-15/475241967_18486807268048693_7701900158153768535_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&amp;_nc_cat=101&amp;ig_cache_key=MzU1NDY3ODEzMTg0OTAzNTQ5Mw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMC5zZHIuQzMifQ%3D%3D&amp;_nc_ohc=Pb3OkLBn2B8Q7kNvwHCeGyb&amp;_nc_oc=Adn_sTc84CSubUIDGBurLNXYnQ1Fh21GQ-z0zL2S901joYm1JVJXsmfzw237scDTGGsPUOmeJt8N1wuVM--d-Ux1&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-mxp2-1.cdninstagram.com&amp;_nc_gid=FNGg9IKrukvkvF_e8u7y_A&amp;oh=00_Afo0dKSfiCFFDbnCQOS9zlaYt32MR00DPjRVpIjvwhm-Mw&amp;oe=6965CFA3" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;Twenty-five🥳🎂</description>
       <guid isPermaLink="false">https://www.instagram.com/p/DFUwO1rtf7l/</guid>
+      <pubDate>Mon, 27 Jan 2025 09:37:56 +0000</pubDate>
     </item>
     <item>
       <title>💌</title>
-      <link>https://imginn.com/p/DIBP6uGtneK/</link>
-      <description>&lt;img src="https://assets.imginn.com/img/lazy.jpg" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;💌</description>
+      <link>https://www.instagram.com/p/DIBP6uGtneK/</link>
+      <description>&lt;img src="https://scontent-mxp1-1.cdninstagram.com/v/t51.75761-15/488361069_18499977604048693_2349621408271118793_n.jpg?stp=dst-jpegr_e35_p1080x1080_tt6&amp;_nc_cat=104&amp;ig_cache_key=MzYwMzIzMTE3MzYxOTY0MzM3Nw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMC5oZHIuQzMifQ%3D%3D&amp;_nc_ohc=O2tlB4uWE9IQ7kNvwHepinU&amp;_nc_oc=AdlMP94kwR2nRiZM1piQ56Spcpwmi8Y_deuQeb2WEQKE3gf1khSzvmCo1xqLREt_QsIaUVzHAT2wQvh2HigSj_ql&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=-1&amp;_nc_ht=scontent-mxp1-1.cdninstagram.com&amp;_nc_gid=FNGg9IKrukvkvF_e8u7y_A&amp;oh=00_AfqtZHGpaDouVuWv8AFZP2vMjGpWPoKIhdJQK-gQqgbJ-A&amp;oe=6965FD73" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;💌</description>
       <guid isPermaLink="false">https://www.instagram.com/p/DIBP6uGtneK/</guid>
+      <pubDate>Fri, 04 Apr 2025 09:24:11 +0000</pubDate>
     </item>
     <item>
-      <title>Back-to-back nights with the goddesses of the stage🫠✨🫶🏻🎙️ •••#milano #idays #dualipa #elodie #concer</title>
-      <link>https://imginn.com/p/DKq_6FptBjc/</link>
-      <description>&lt;img src="https://assets.imginn.com/img/lazy.jpg" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;Back-to-back nights with the goddesses of the stage🫠✨🫶🏻🎙️ •••#milano #idays #dualipa #elodie #concert</description>
+      <title>Back-to-back nights with the goddesses of the stage🫠✨🫶🏻🎙️ 
+•
+•
+•
+#milano #idays #dualipa #elodie #co</title>
+      <link>https://www.instagram.com/p/DKq_6FptBjc/</link>
+      <description>&lt;img src="https://scontent-mxp2-1.cdninstagram.com/v/t51.75761-15/504490372_18512743645048693_977218825566229687_n.jpg?stp=dst-jpegr_e35_p1080x1080_tt6&amp;_nc_cat=110&amp;ig_cache_key=MzY1MTAxMTUwNTgwMjIwMzQ1Mw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMC5oZHIuQzMifQ%3D%3D&amp;_nc_ohc=1kTKMCCxfh8Q7kNvwHlxP7X&amp;_nc_oc=AdmouWnKrUwBchbVkebwvL0E_oHeUUGLnQ30s7urYVpscTQvWygvpt28QT1f84X4waysnYWcXHDFpVSHzA57DvG_&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=-1&amp;_nc_ht=scontent-mxp2-1.cdninstagram.com&amp;_nc_gid=FNGg9IKrukvkvF_e8u7y_A&amp;oh=00_AfqfYuD4V-cvPiRZJYBnXHbJR-jVr1FW2T3Xh-Gc5jfZgA&amp;oe=6965EC71" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;Back-to-back nights with the goddesses of the stage🫠✨🫶🏻🎙️ &lt;br/&gt;•&lt;br/&gt;•&lt;br/&gt;•&lt;br/&gt;#milano #idays #dualipa #elodie #concert</description>
       <guid isPermaLink="false">https://www.instagram.com/p/DKq_6FptBjc/</guid>
+      <pubDate>Mon, 09 Jun 2025 07:35:10 +0000</pubDate>
     </item>
     <item>
       <title>KOM @kom_kultureofmountain dal tramonto all’alba, dallo sport alla muscia, dal cibo alla cultura, da</title>
-      <link>https://imginn.com/p/DLmo5rJNHde/</link>
-      <description>&lt;img src="https://assets.imginn.com/img/lazy.jpg" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;KOM @kom_kultureofmountain dal tramonto all’alba, dallo sport alla muscia, dal cibo alla cultura, dagli amici alle nuove conoscenze •••Grazie a @karhuofficial @karhustore.cuneo @karhu_trainingcenter @albaoptics @ferrino_official @rifugiofauniera @garmin 🌙🥾⛰️⛺️🌌#rifugiofauniera #trekking #photohike #yoga #misuc #kom #karhu #ferrino #albaoptics #food #sport #altamontagna #castelmagno #friends #experience #garmin #vallegrana</description>
+      <link>https://www.instagram.com/p/DLmo5rJNHde/</link>
+      <description>&lt;img src="https://scontent-mxp1-1.cdninstagram.com/v/t51.82787-15/515044358_18517125151048693_570561150943990355_n.jpg?stp=dst-jpegr_e35_p1080x1080_tt6&amp;_nc_cat=106&amp;ig_cache_key=MzY2Nzc5ODgyMTU0MzY5MjM3Nw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTcyNy5oZHIuQzMifQ%3D%3D&amp;_nc_ohc=zgEcaIwQOeoQ7kNvwFSB0-i&amp;_nc_oc=AdnRT4z--2TMQS0TeS0M2eEr9RFnFl7T0zyWcWKK7tDUXDpuAsjbGgbbibLIdiuOpdAFoLfpt12MgLlw-mkx1dv6&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=-1&amp;_nc_ht=scontent-mxp1-1.cdninstagram.com&amp;_nc_gid=FNGg9IKrukvkvF_e8u7y_A&amp;oh=00_Afog6T2aosMt52ImsDwyWMhYCXqwdB0cIA_KXJLg7-5EsQ&amp;oe=6965F89F" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;KOM @kom_kultureofmountain dal tramonto all’alba, dallo sport alla muscia, dal cibo alla cultura, dagli amici alle nuove conoscenze &lt;br/&gt;•&lt;br/&gt;•&lt;br/&gt;•&lt;br/&gt;Grazie a @karhuofficial @karhustore.cuneo @karhu_trainingcenter @albaoptics @ferrino_official @rifugiofauniera @garmin 🌙🥾⛰️⛺️🌌&lt;br/&gt;#rifugiofauniera #trekking #photohike #yoga #misuc #kom #karhu #ferrino #albaoptics #food #sport #altamontagna #castelmagno #friends #experience #garmin #vallegrana</description>
       <guid isPermaLink="false">https://www.instagram.com/p/DLmo5rJNHde/</guid>
+      <pubDate>Wed, 02 Jul 2025 11:28:34 +0000</pubDate>
     </item>
     <item>
       <title>🇬🇧💂🏻‍♀️☕️🤍</title>
-      <link>https://imginn.com/p/DM7ylqbtD3z/</link>
-      <description>&lt;img src="https://s3.imginn.com/527564202_18523212097048693_7204793956259694533_n.jpg?t51.2885-15/527564202_18523212097048693_7204793956259694533_n.jpg?stp=c0.240.1440.1440a_dst-jpg_e35_s640x640_sh0.08_tt6&amp;_nc_ht=scontent-ord5-1.cdninstagram.com&amp;_nc_cat=101&amp;_nc_oc=Q6cZ2QE7xCvInlaIrJubadIzh52nwMb6Ol1EjUAYdDTqI-Qve7KtfJ4H-RGkN9Sr0Gyu3b1IyUkX1jCVr5P6ow0Ov8SC&amp;_nc_ohc=U6DpNQekLWQQ7kNvwEpgW2E&amp;_nc_gid=iguB3XHVF4y_38jNCkqQRg&amp;edm=APU89FABAAAA&amp;ccb=7-5&amp;ig_cache_key=MzY5MTc2NjgwMDkzMzMxNjk0Ng%3D%3D.3.c-ccb7-5&amp;oh=00_Afc4ahxYnlKv0Ysgn2dIFXhmPaMjJcnKHAtfJm9-4DD2Fw&amp;oe=6905360C&amp;_nc_sid=bc0c2c" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;🇬🇧💂🏻‍♀️☕️🤍</description>
+      <link>https://www.instagram.com/p/DM7ylqbtD3z/</link>
+      <description>&lt;img src="https://scontent-mxp2-1.cdninstagram.com/v/t51.82787-15/527564202_18523212097048693_7204793956259694533_n.jpg?stp=dst-jpegr_e35_p1080x1080_tt6&amp;_nc_cat=108&amp;ig_cache_key=MzY5MTc2NjgwMDkzMzMxNjk0Ng%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMC5oZHIuQzMifQ%3D%3D&amp;_nc_ohc=EUWpruIsA8AQ7kNvwFkAgEu&amp;_nc_oc=AdkW778DMUidEt63ypSxdtZUaSsMudbolsz4v2I5wX4RDln1V_2sDF8UKcLQP7QPFwfjPcqzKQVpEudfvURvIHTv&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=-1&amp;_nc_ht=scontent-mxp2-1.cdninstagram.com&amp;_nc_gid=FNGg9IKrukvkvF_e8u7y_A&amp;oh=00_Afo39QrY350k6pj6sfJAWJNpvqXso-cOsQtsf2c_6WI0AQ&amp;oe=6965D29E" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;🇬🇧💂🏻‍♀️☕️🤍</description>
       <guid isPermaLink="false">https://www.instagram.com/p/DM7ylqbtD3z/</guid>
+      <pubDate>Mon, 04 Aug 2025 13:08:40 +0000</pubDate>
     </item>
     <item>
-      <title>Mind the gap🚇🇬🇧•••Con la mia guida local preferita @beatriicae 🫶🏻</title>
-      <link>https://imginn.com/p/DNP_Ui4sWiA/</link>
-      <description>&lt;img src="https://s3.imginn.com/531890156_18524607094048693_6076833772308118716_n.jpg?t51.2885-15/531890156_18524607094048693_6076833772308118716_n.jpg?stp=c0.240.1440.1440a_dst-jpg_e35_s640x640_sh0.08_tt6&amp;_nc_ht=scontent-ord5-1.cdninstagram.com&amp;_nc_cat=101&amp;_nc_oc=Q6cZ2QE7xCvInlaIrJubadIzh52nwMb6Ol1EjUAYdDTqI-Qve7KtfJ4H-RGkN9Sr0Gyu3b1IyUkX1jCVr5P6ow0Ov8SC&amp;_nc_ohc=48cIwctAjPYQ7kNvwEndBQa&amp;_nc_gid=iguB3XHVF4y_38jNCkqQRg&amp;edm=APU89FABAAAA&amp;ccb=7-5&amp;ig_cache_key=MzY5NzQ1MjI5NDAzMTMyNTUyMg%3D%3D.3.c-ccb7-5&amp;oh=00_AffAwNrgVuuIHr_-IloFPFWnry5SxBgC_YngoCPRs7xtBA&amp;oe=690550F4&amp;_nc_sid=bc0c2c" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;Mind the gap🚇🇬🇧•••Con la mia guida local preferita @beatriicae 🫶🏻</description>
+      <title>Mind the gap🚇🇬🇧
+•
+•
+•
+Con la mia guida local preferita @beatriicae 🫶🏻</title>
+      <link>https://www.instagram.com/p/DNP_Ui4sWiA/</link>
+      <description>&lt;img src="https://scontent-mxp1-1.cdninstagram.com/v/t51.82787-15/531890156_18524607094048693_6076833772308118716_n.jpg?stp=dst-jpegr_e35_p1080x1080_tt6&amp;_nc_cat=106&amp;ig_cache_key=MzY5NzQ1MjI5NDAzMTMyNTUyMg%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMC5oZHIuQzMifQ%3D%3D&amp;_nc_ohc=WAA7gWXU6nsQ7kNvwEqtfbv&amp;_nc_oc=AdnOD_Cy-oDtk-cNUWHdKSH4ahqA_IJ5suRNidRlM1USfb_YibT0rB0ON7rwanpvg3G_8PNDDFP4asjlTqUkn6W7&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=-1&amp;_nc_ht=scontent-mxp1-1.cdninstagram.com&amp;_nc_gid=FNGg9IKrukvkvF_e8u7y_A&amp;oh=00_Afrax-ikd_mwfnSapcD1LvQhs_OV_eA2yRvlLgRTmCATuw&amp;oe=6965E6E6" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;Mind the gap🚇🇬🇧&lt;br/&gt;•&lt;br/&gt;•&lt;br/&gt;•&lt;br/&gt;Con la mia guida local preferita @beatriicae 🫶🏻</description>
       <guid isPermaLink="false">https://www.instagram.com/p/DNP_Ui4sWiA/</guid>
+      <pubDate>Tue, 12 Aug 2025 09:24:44 +0000</pubDate>
     </item>
     <item>
       <title>🐚🇬🇷🤍🧿</title>
-      <link>https://imginn.com/p/DNshXtR2NSL/</link>
-      <description>&lt;img src="https://s3.imginn.com/537935003_18526552252048693_7198390188949074056_n.jpg?t51.2885-15/537935003_18526552252048693_7198390188949074056_n.jpg?stp=c0.167.1440.1440a_dst-jpg_e35_s320x320_tt6&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE3NzUuc2RyLmY4Mjc4Ny5kZWZhdWx0X2ltYWdlLmMyIn0&amp;_nc_ht=scontent-ord5-1.cdninstagram.com&amp;_nc_cat=101&amp;_nc_oc=Q6cZ2QE7xCvInlaIrJubadIzh52nwMb6Ol1EjUAYdDTqI-Qve7KtfJ4H-RGkN9Sr0Gyu3b1IyUkX1jCVr5P6ow0Ov8SC&amp;_nc_ohc=SGuzoTExIDgQ7kNvwGpPsHA&amp;_nc_gid=iguB3XHVF4y_38jNCkqQRg&amp;edm=APU89FABAAAA&amp;ccb=7-5&amp;oh=00_AfetufXohEacIWqsL-fYJl3oskkYHdCeoPo3KdEkH5pCrA&amp;oe=690526AE&amp;_nc_sid=bc0c2c" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;🐚🇬🇷🤍🧿</description>
+      <link>https://www.instagram.com/p/DNshXtR2NSL/</link>
+      <description>&lt;img src="https://scontent-mxp1-1.cdninstagram.com/v/t51.82787-15/537935003_18526552252048693_7198390188949074056_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&amp;_nc_cat=104&amp;ig_cache_key=MzcwNTQ4MzM1ODExOTcxMTg4Mw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTc3NS5zZHIuQzMifQ%3D%3D&amp;_nc_ohc=EUgx-x9zAz0Q7kNvwHDPLow&amp;_nc_oc=Adk1efKXLbpH-6FjNE74S3m5bH5RWOEI0Cgvuod4xDy8qEiNNpxFYmKzJR7XkMpiQsMEiR3BVp-fbXfJD6xydoF7&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-mxp1-1.cdninstagram.com&amp;_nc_gid=FNGg9IKrukvkvF_e8u7y_A&amp;oh=00_AfrvhX6MBySwYT68mupjnkgdGpIe75k0wS4KxVS-wQXWRQ&amp;oe=6965EDFC" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;🐚🇬🇷🤍🧿</description>
       <guid isPermaLink="false">https://www.instagram.com/p/DNshXtR2NSL/</guid>
+      <pubDate>Sat, 23 Aug 2025 11:21:00 +0000</pubDate>
     </item>
     <item>
       <title>I think I’ll stay🤭🇬🇷</title>
-      <link>https://imginn.com/p/DNxeMKp2LiP/</link>
-      <description>&lt;img src="https://s3.imginn.com/538612089_18526882687048693_7136191307106605117_n.jpg?t51.2885-15/538612089_18526882687048693_7136191307106605117_n.jpg?stp=c0.240.1440.1440a_dst-jpg_e35_s640x640_sh0.08_tt6&amp;_nc_ht=scontent-ord5-1.cdninstagram.com&amp;_nc_cat=101&amp;_nc_oc=Q6cZ2QE7xCvInlaIrJubadIzh52nwMb6Ol1EjUAYdDTqI-Qve7KtfJ4H-RGkN9Sr0Gyu3b1IyUkX1jCVr5P6ow0Ov8SC&amp;_nc_ohc=t_dFeM8sAvcQ7kNvwGnh_Qd&amp;_nc_gid=iguB3XHVF4y_38jNCkqQRg&amp;edm=APU89FABAAAA&amp;ccb=7-5&amp;ig_cache_key=MzcwNjg3NjczNjk3MTQ4MTQwMQ%3D%3D.3.c-ccb7-5&amp;oh=00_AfclGZIoJxp6nSCnB_zsxwt3IKM0lzBrcatvEIIBqzqIdw&amp;oe=690544D2&amp;_nc_sid=bc0c2c" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;I think I’ll stay🤭🇬🇷</description>
+      <link>https://www.instagram.com/p/DNxeMKp2LiP/</link>
+      <description>&lt;img src="https://scontent-mxp2-1.cdninstagram.com/v/t51.82787-15/538612089_18526882687048693_7136191307106605117_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&amp;_nc_cat=111&amp;ig_cache_key=MzcwNjg3NjczNjk3MTQ4MTQwMQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMC5zZHIuQzMifQ%3D%3D&amp;_nc_ohc=hEn5FPQus70Q7kNvwFj0HE0&amp;_nc_oc=Adl5xYgOATR66ZZh4ONL7BKpHqKt4WdVD35MrPbv0D-bw090t3QUiuDR73QTLL8g8Dz_KixsF00YR5o66RU-evMr&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-mxp2-1.cdninstagram.com&amp;_nc_gid=FNGg9IKrukvkvF_e8u7y_A&amp;oh=00_AfrK1mmb3PzTXZvQg7tc_xT2aFbmVEnqsLD8jI-VzuPIig&amp;oe=6965E608" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;I think I’ll stay🤭🇬🇷</description>
       <guid isPermaLink="false">https://www.instagram.com/p/DNxeMKp2LiP/</guid>
+      <pubDate>Mon, 25 Aug 2025 09:29:25 +0000</pubDate>
     </item>
     <item>
       <title>Lascia che il tramonto ti insegni che anche la fine può essere bella🧡🌞</title>
-      <link>https://imginn.com/p/DN5c2a_DOpX/</link>
-      <description>&lt;img src="https://s3.imginn.com/540667922_18527420242048693_8422338784220716740_n.jpg?t51.2885-15/540667922_18527420242048693_8422338784220716740_n.jpg?stp=c0.235.1440.1440a_dst-jpg_e35_s640x640_sh0.08_tt6&amp;_nc_ht=scontent-ord5-1.cdninstagram.com&amp;_nc_cat=101&amp;_nc_oc=Q6cZ2QE7xCvInlaIrJubadIzh52nwMb6Ol1EjUAYdDTqI-Qve7KtfJ4H-RGkN9Sr0Gyu3b1IyUkX1jCVr5P6ow0Ov8SC&amp;_nc_ohc=YiDY6qhrdpcQ7kNvwE7LtZn&amp;_nc_gid=iguB3XHVF4y_38jNCkqQRg&amp;edm=APU89FABAAAA&amp;ccb=7-5&amp;ig_cache_key=MzcwOTEyMjY0NzM1NjYxOTQzOQ%3D%3D.3.c-ccb7-5&amp;oh=00_AfdcDL2LYKoS7A6Cr5dDHJho8DThlL75KXqhEJHAMVOAaA&amp;oe=69053E11&amp;_nc_sid=bc0c2c" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;Lascia che il tramonto ti insegni che anche la fine può essere bella🧡🌞</description>
+      <link>https://www.instagram.com/p/DN5c2a_DOpX/</link>
+      <description>&lt;img src="https://scontent-mxp1-1.cdninstagram.com/v/t51.82787-15/540667922_18527420242048693_8422338784220716740_n.jpg?stp=dst-jpegr_e35_p1080x1080_tt6&amp;_nc_cat=104&amp;ig_cache_key=MzcwOTEyMjY0NzM1NjYxOTQzOQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkxMC5oZHIuQzMifQ%3D%3D&amp;_nc_ohc=ZOKCG61kh3oQ7kNvwEUK0r0&amp;_nc_oc=Adndj104kjgajVitrWlg5rhyxbygtS_qwZ-B052A9pDQBKIxHz3dZrDFviDVRx2iBOuj70YDMwffg_KzIK7rYJh9&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=-1&amp;_nc_ht=scontent-mxp1-1.cdninstagram.com&amp;_nc_gid=FNGg9IKrukvkvF_e8u7y_A&amp;oh=00_AfoW5P33fJeDVPi1NIefRPajyvW-xCqr_mi1Oq4YFCwYRA&amp;oe=69660507" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;Lascia che il tramonto ti insegni che anche la fine può essere bella🧡🌞</description>
       <guid isPermaLink="false">https://www.instagram.com/p/DN5c2a_DOpX/</guid>
+      <pubDate>Thu, 28 Aug 2025 11:51:38 +0000</pubDate>
     </item>
     <item>
-      <title>Vuoi una corsa lineare, pulita e leggera come quella della nostra Francy??? Allora ti aspettiamo, da</title>
-      <link>https://imginn.com/p/DPDxWioig4P/</link>
-      <description>&lt;img src="https://s3.imginn.com/553944620_1220022789891682_3241749635837121251_n.jpg?t51.2885-15/553944620_1220022789891682_3241749635837121251_n.jpg?stp=c0.248.640.640a_dst-jpg_e15_s320x320_tt6&amp;efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi42NDB4MTEzNi5zZHIuZjcxODc4Lm5mcmFtZV9jb3Zlcl9mcmFtZS5jMiJ9&amp;_nc_ht=scontent-ord5-3.cdninstagram.com&amp;_nc_cat=110&amp;_nc_oc=Q6cZ2QE7xCvInlaIrJubadIzh52nwMb6Ol1EjUAYdDTqI-Qve7KtfJ4H-RGkN9Sr0Gyu3b1IyUkX1jCVr5P6ow0Ov8SC&amp;_nc_ohc=Khma1dwp4OAQ7kNvwH5Tb7i&amp;_nc_gid=iguB3XHVF4y_38jNCkqQRg&amp;edm=APU89FABAAAA&amp;ccb=7-5&amp;oh=00_AfcBh0DPCLzdqQejFgRAkoAPIoy-dYDw5v8LXuJpEeqe6A&amp;oe=69052B75&amp;_nc_sid=bc0c2c" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;Vuoi una corsa lineare, pulita e leggera come quella della nostra Francy??? Allora ti aspettiamo, dal 7 ottobre, tutti i mercoledì sera alle 20:00 per allenare la tua corsa in PALESTRA 🫣😉Sì, hai sentito bene, in palestra (anzi al @karhu_trainingcenter )!! ⏩️ Miglioreremo la tecnica con circuiti specifici INDOOR: esercizi funzionali per la corsa, andature, tappeto curvo, equilibrio, pliometria e lavori sulla frequenza cardiaca ci accompagneranno in questo percorso di allenamenti che sarà di supporto alle nostre corse OUTDOOR 😉Cosa aspetti? Corri a provare 🏃‍♀️‍➡️ 🏃 Ti aspettiamo, contattami per info e per prenotare la tua lezione di prova 😉🏃‍♀️‍➡️ 🌈</description>
-      <guid isPermaLink="false">https://www.instagram.com/p/DPDxWioig4P/</guid>
+      <title>MOBILITÀ E CORSA possono essere un’accoppiata vincente per migliorare la tua performance… ma fai att</title>
+      <link>https://www.instagram.com/p/DS5ZriAirSt/</link>
+      <description>&lt;img src="https://scontent-mxp2-1.cdninstagram.com/v/t51.82787-15/589902718_18085515311110156_5255632652183647051_n.jpg?stp=dst-jpg_e15_s640x640_tt6&amp;_nc_cat=111&amp;ig_cache_key=Mzc5OTE4MDcwMzI4MDMxMzUxNzE4MDg1NTE1MzA1MTEwMTU2.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEyOTB4MjI5NC5zZHIuQzMifQ%3D%3D&amp;_nc_ohc=ysJUJq9wSdMQ7kNvwGAOT6W&amp;_nc_oc=AdloaBHB_F6WL06BmQuNdZI6pQP-CjDN4Iw8h_3f8j49xyqhkIX2f1qaSa6ZkOShnS492y3ssL6cZFsuJt7rxyDH&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-mxp2-1.cdninstagram.com&amp;_nc_gid=FNGg9IKrukvkvF_e8u7y_A&amp;oh=00_AfpEGemBadgipuQGUIVy3X9e43wzf32dBmsAkDOwUICNGA&amp;oe=6965DB3E" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;MOBILITÀ E CORSA possono essere un’accoppiata vincente per migliorare la tua performance… ma fai attenzione a metterle nella giusta sequenza: fai esercizi dinamici come riscaldamento, esercizi statici come defaticamento🏃🏻‍♀️ &lt;br/&gt;&lt;br/&gt;⚠️ NB: gli esercizi di mobilità pre corsa sono solo una parte del riscaldamento, è importante implementare l’attivazione con qualche minuto di corsa lenta e/o qualche allungo!!&lt;br/&gt;&lt;br/&gt;In questo reel la nostra @francescarmando ci mostra una sequenza di esercizi di mobilità dinamica e statica utili da inserire rispettivamente pre e post corsa! 🏃🏻‍♀️ &lt;br/&gt;&lt;br/&gt;Ricorda:&lt;br/&gt;&lt;br/&gt;• Pre-corsa: mobilita dinamica —&gt; 2/3 serie da 10/12 ripetizioni &lt;br/&gt;&lt;br/&gt;• Post-corsa: mobilità statica —&gt; 2/3 serie da 20/30 secondi &lt;br/&gt;&lt;br/&gt;Se vuoi imparare a strutturare allenamenti di corsa e migliorare la tua tecnica ti aspettiamo ogni mercoledì sera, ore 20:00, al @karhu_trainingcenter per una sessione di allenamento dedicata ai runners 🏃🏻‍♀️ 🏃 💪🏽 🌈</description>
+      <guid isPermaLink="false">https://www.instagram.com/p/DS5ZriAirSt/</guid>
+      <pubDate>Tue, 30 Dec 2025 18:19:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>I’m kinda busy🤪🤭
+•
+•
+•
+#ski #pilatesreformer #lovesports #wellness #running</title>
+      <link>https://www.instagram.com/p/DTIGm-QDJM9/</link>
+      <description>&lt;img src="https://scontent-mxp1-1.cdninstagram.com/v/t51.71878-15/609950866_1829518094596287_978680467939133578_n.jpg?stp=dst-jpg_e15_p360x360_tt6&amp;_nc_cat=102&amp;ig_cache_key=MzgwMzMxODk1MTc3NDgxOTEzMw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjY0MHgxMTM2LnNkci5DMyJ9&amp;_nc_ohc=-usc1EutIDoQ7kNvwHcTDnY&amp;_nc_oc=AdntUTfzy3vgyGSywYZb-cACyFAbupvnANVRzHp7klCVxK2gp9Rge5pkAuSAHua0FMDliOjmm_Tj6ERPsMIa2vgS&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-mxp1-1.cdninstagram.com&amp;_nc_gid=FNGg9IKrukvkvF_e8u7y_A&amp;oh=00_Afor2WahptOfgD0Xoo4L9JBMUagtBv_ShWs_KvqxPMMujA&amp;oe=6965F203" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;I’m kinda busy🤪🤭&lt;br/&gt;•&lt;br/&gt;•&lt;br/&gt;•&lt;br/&gt;#ski #pilatesreformer #lovesports #wellness #running</description>
+      <guid isPermaLink="false">https://www.instagram.com/p/DTIGm-QDJM9/</guid>
+      <pubDate>Mon, 05 Jan 2026 11:11:46 +0000</pubDate>
     </item>
   </channel>
 </rss>

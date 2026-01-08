@@ -1,285 +1,138 @@
 import os
-import json
-import time
-import random
-import regex as re
-from datetime import datetime, timezone, timedelta
-from pathlib import Path
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
+from datetime import datetime, timezone
+from instagrapi import Client
+from instagrapi.exceptions import TwoFactorRequired, ChallengeRequired
 from feedgen.feed import FeedGenerator
+from pathlib import Path
+import pyotp
+import random
 
-# Configuration
-ACCOUNTS_FILE = "accounts.json"
 FEEDS_DIR = "feeds"
 MAX_POSTS = 20
-DELAY_BETWEEN_ACCOUNTS = 30
-try:
-    DEBUG = os.getenv("DEBUG", "True").lower() in ("true", "1", "t")
-except:
-    DEBUG = True
+SESSION_FILE = "ig_session.json"
 
+def ig_login():
+    cl = Client()
 
-def load_accounts():
-    """Load Instagram accounts from config file"""
+    if os.path.exists(SESSION_FILE):
+        cl.load_settings(SESSION_FILE)
 
-    os.getenv("ACCOUNTS")
-    accs = os.getenv("ACCOUNTS").split(",")
-    if len(accs) > 0 and accs[0] != "":
-        return {"accounts": accs}
+    username = os.environ["IG_USERNAME"]
+    password = os.environ["IG_PASSWORD"]
 
-    with open(ACCOUNTS_FILE, "r") as f:
-        return json.load(f)
+    try:
+        cl.login(username, password)
 
+    except TwoFactorRequired:
+        secret = os.environ.get("IG_TOTP_SECRET")
+        if not secret:
+            raise RuntimeError("2FA required but IG_TOTP_SECRET not set")
+
+        code = pyotp.TOTP(secret).now()
+        cl.login(username, password, verification_code=code)
+
+    except ChallengeRequired:
+        raise RuntimeError(
+            "Instagram checkpoint/challenge required. "
+            "Approve it in the app/browser, then rerun."
+        )
+
+    cl.dump_settings(SESSION_FILE)
+    return cl
 
 def create_feed_dir():
-    """Create feeds directory if it doesn't exist"""
     Path(FEEDS_DIR).mkdir(exist_ok=True)
 
+def ts_to_dt_utc(ts: int) -> datetime:
+    return datetime.fromtimestamp(int(ts), tz=timezone.utc)
 
-def relative_to_timestamp(text):
-    now = datetime.now(timezone.utc)
-    # Match numbers and units
-    match = re.match(r"(\d+)\s+(\w+)\s+ago", text)
-    if not match:
-        return None
-    value, unit = int(match.group(1)), match.group(2).lower()
-    if "day" in unit:
-        return now - timedelta(days=value)
-    elif "hour" in unit:
-        return now - timedelta(hours=value)
-    elif "minute" in unit:
-        return now - timedelta(minutes=value)
-    elif "second" in unit:
-        return now - timedelta(seconds=value)
-    return None
+def pick_image_url(item: dict) -> str | None:
+    # For photos + albums, Instagram returns candidates
+    # Try common locations
+    if "image_versions2" in item:
+        candidates = item["image_versions2"].get("candidates") or []
+        if candidates:
+            return candidates[0].get("url")
 
+    # Carousels store images in carousel_media
+    carousel = item.get("carousel_media") or []
+    for m in carousel:
+        if "image_versions2" in m:
+            candidates = m["image_versions2"].get("candidates") or []
+            if candidates:
+                return candidates[0].get("url")
 
-def setup_driver():
-    """Setup headless Chrome driver"""
-    chrome_options = Options()
-    chrome_options.add_argument("--headless")
-    chrome_options.add_argument("--no-sandbox")
-    chrome_options.add_argument("--disable-dev-shm-usage")
-    chrome_options.add_argument("--disable-gpu")
-    chrome_options.add_argument(
-        "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    # Reels/videos may have thumbnail_url-ish fields
+    return item.get("thumbnail_url") or item.get("display_url")
+
+def caption_text(item: dict) -> str:
+    cap = item.get("caption")
+    if isinstance(cap, dict):
+        return (cap.get("text") or "").strip()
+    return ""
+
+def permalink_from_code(code: str) -> str:
+    return f"https://www.instagram.com/p/{code}/" if code else ""
+
+def fetch_user_items_raw(cl: Client, username: str, amount: int):
+    user_id = cl.user_id_from_username(username)
+
+    data = cl.private_request(
+        f"feed/user/{user_id}/",
+        params={"count": amount}
     )
+    return data.get("items", [])
 
-    global DEBUG
-    # 👇 Specify Chromium binary location
-    if DEBUG:
-        print("Running in DEBUG mode - using local Chrome installation")
-        pass
-    else:
-        chrome_options.binary_location = "/usr/bin/chromium-browser"
+def generate_rss_for_account(cl: Client, account_name: str):
+    items = fetch_user_items_raw(cl, account_name, MAX_POSTS)
+    if not items:
+        print(f"✗ No items for @{account_name}")
+        return
 
-    # 👇 Use Service for chromedriver
-    if DEBUG:
-        driver = webdriver.Chrome(options=chrome_options)
-    else:
-        service = Service("/usr/bin/chromedriver")
-        driver = webdriver.Chrome(service=service, options=chrome_options)
-    return driver
+    fg = FeedGenerator()
+    fg.title(f"@{account_name} - Instagram")
+    fg.link(href=f"https://www.instagram.com/{account_name}/", rel="alternate")
+    fg.description(f"Instagram posts from @{account_name}")
+    fg.language("en")
 
+    for it in items:
+        code = it.get("code")  # shortcode
+        url = permalink_from_code(code)
 
-def fetch_imginn_posts(driver, account_name):
-    """Fetch posts from Imginn account and open each post page"""
-    url = f"https://imginn.com/{account_name}/"
-    driver.get(url)
+        img = pick_image_url(it)
+        cap = caption_text(it)
+        taken_at = it.get("taken_at") or it.get("device_timestamp")
 
-    time.sleep(3)  # Wait for page to load
-    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        fe = fg.add_entry()
+        fe.id(url or str(it.get("pk") or code))
+        fe.link(href=url or f"https://www.instagram.com/{account_name}/")
+        fe.title(cap[:100] if cap else f"Post by @{account_name}")
 
-    time.sleep(5) # Wait for posts to load
+        desc = ""
+        if img:
+            desc += f'<img src="{img}" alt="Instagram post"/><br/><br/>'
+        if cap:
+            desc += cap.replace("\n", "<br/>")
+        fe.description(desc)
 
-    try:
-        WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.CLASS_NAME, "item"))
-        )
-        time.sleep(2)
-    except Exception as e:
-        raise Exception("Failed to load account posts", str(e))
+        if taken_at:
+            fe.pubDate(ts_to_dt_utc(taken_at))
 
-    posts = []
-    post_elements = driver.find_elements(By.CLASS_NAME, "item")[:MAX_POSTS]
-
-    for post_elem in post_elements:
-        try:
-            # Extract link
-            link_elem = post_elem.find_element(By.TAG_NAME, "a")
-            post_url = link_elem.get_attribute("href")
-
-            # Extract image
-            try:
-                img_elem = driver.find_element(By.XPATH, '//meta[@property="og:image"]')
-                profile_image_url = img_elem.get_attribute("content")
-            except Exception as e:
-                print(f"  ⚠ Error extracting image URL: {e}")
-                profile_image_url = None
-
-            try:
-                img_tag = post_elem.find_element(By.TAG_NAME, "img")
-                image_url = img_tag.get_attribute("src")
-                caption = img_tag.get_attribute("alt")
-            except Exception as e:
-                print(f"  ⚠ Error extracting caption: {e}")
-                caption = ""
-
-            try:
-                action_elem = post_elem.find_element(By.CLASS_NAME, "action")
-                time_tag = action_elem.find_element(By.CLASS_NAME, "time")
-                date = time_tag.get_attribute("innerText")
-                print("Extracted date text:", date)
-                date = relative_to_timestamp(date)
-            except Exception as e:
-                print(f"  ⚠ Error extracting date: {e}")
-                date = datetime.now(timezone.utc)
-
-            # Extract shortcode
-            shortcode = (
-                post_url.split("/")[-2]
-                if "/p/" in post_url
-                else post_url.split("/")[-1]
-            )
-
-            posts.append(
-                {
-                    "shortcode": shortcode,
-                    "url": post_url,
-                    "profile_image_url": profile_image_url,
-                    "image_url": image_url,
-                    "caption": caption,
-                    "date": date,
-                    "instagram_url": f"https://www.instagram.com/p/{shortcode}/",
-                }
-            )
-
-            time.sleep(5)
-
-        except Exception as e:
-            print(f"  ⚠ Error parsing post: {e}")
-            continue
-
-        if DEBUG:
-            break
-
-    return posts
-
-
-def get_profile_info(driver, account_name):
-    """Extract profile information"""
-    profile_info = {
-        "full_name": account_name,
-        "biography": f"Instagram posts from @{account_name}",
-    }
-
-    try:
-        name_elem = driver.find_element(By.TAG_NAME, "h1")
-        profile_info["full_name"] = name_elem.text
-    except:
-        pass
-
-    return profile_info
-
-
-def generate_rss_for_account(driver, account_name):
-    """Generate RSS feed for a single Instagram account"""
-    print(f"Processing @{account_name}...")
-
-    try:
-        # Fetch posts
-        posts = fetch_imginn_posts(driver, account_name)
-
-        if not posts:
-            print(f"✗ No posts found for @{account_name}")
-            return False
-
-        # Get profile info
-        profile_info = get_profile_info(driver, account_name)
-
-        # Create feed generator
-        fg = FeedGenerator()
-        fg.title(f"{profile_info['full_name']} (@{account_name}) - Instagram")
-        fg.link(href=f"https://www.instagram.com/{account_name}/", rel="alternate")
-        fg.description(
-            f"<img src={posts[0]['profile_image_url']}/> {profile_info['biography']}"
-        )
-        fg.language("en")
-
-        # Add posts to feed
-        for post in posts:
-            fe = fg.add_entry()
-            fe.id(post["instagram_url"])
-            fe.link(href=post["url"])
-            fe.title(
-                post["caption"][:100] if post["caption"] else f"Post by @{account_name}"
-            )
-
-            description = ""
-            if post["image_url"]:
-                description += (
-                    f'<img src="{post["image_url"]}" alt="Instagram post"/><br/><br/>'
-                )
-            if post["caption"]:
-                description += post["caption"].replace("\n", "<br/>")
-
-            if DEBUG:
-                print("Post description:", description)
-            fe.description(description)
-            fe.pubDate(post["date"])
-
-        # Save RSS feed
-        feed_path = os.path.join(FEEDS_DIR, f"{account_name}.xml")
-        fg.rss_file(feed_path, pretty=True)
-        print(f"✓ Generated feed for @{account_name} ({len(posts)} posts)")
-        return True
-
-    except Exception as e:
-        print(f"✗ Error processing @{account_name}: {str(e)}")
-        return False
-
+    feed_path = os.path.join(FEEDS_DIR, f"{account_name}.xml")
+    fg.rss_file(feed_path, pretty=True)
+    print(f"✓ Generated feed for @{account_name} ({len(items)} items)")
 
 def main():
-    config = load_accounts()
-    accounts = config.get("accounts", [])
+    create_feed_dir()
+    cl = ig_login()
 
-    if not accounts:
-        print("No accounts configured in accounts.json")
-        return
+    accounts = os.getenv("ACCOUNTS", "")
+    accounts = [a.strip() for a in accounts.split(",") if a.strip()]
 
     random.shuffle(accounts)
 
-    create_feed_dir()
-
-    print(f"Generating RSS feeds for {len(accounts)} accounts using Imginn...\n")
-
-    driver = None
-    try:
-        driver = setup_driver()
-
-        success_count = 0
-        for i, account in enumerate(accounts):
-            if generate_rss_for_account(driver, account):
-                success_count += 1
-
-            if i < len(accounts) - 1:
-                print(f"Waiting {DELAY_BETWEEN_ACCOUNTS} seconds...\n")
-                time.sleep(DELAY_BETWEEN_ACCOUNTS)
-            if DEBUG:
-                print("\n✓ DEBUG mode is ON - processed only the first account.\n")
-                break
-
-        print(f"\n✓ Complete! ({success_count}/{len(accounts)} successful)")
-
-    finally:
-        if driver:
-            driver.quit()
-
+    for a in accounts[:5]:
+        generate_rss_for_account(cl, a)
 
 if __name__ == "__main__":
     main()

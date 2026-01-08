@@ -1,3 +1,5 @@
 feedgen
-selenium
+instagrapi @ git+https://github.com/subzeroid/instagrapi.git
 regex
+pyotp
+pydantic
