@@ -2,114 +2,94 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>@karhustores.it - Instagram</title>
-    <link>https://www.instagram.com/karhustores.it/</link>
+    <link>https://raw.githubusercontent.com/fvalle1/imgrss/main/feeds/karhustores.it.xml</link>
     <description>Instagram posts from @karhustores.it</description>
+    <atom:link href="https://raw.githubusercontent.com/fvalle1/imgrss/main/feeds/karhustores.it.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Jan 2026 20:43:14 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Jan 2026 22:23:13 +0000</lastBuildDate>
     <item>
-      <title>Nuova KARHU FUSION XC “Beech” ❄️💥
-La scarpa ideale per le stagioni più fredde.
-•
-Ti aspetta in Store</title>
+      <title>Iniziate a scaldarvi. Sabato 20 dicembre si torna a correre e lo facciamo con un super ospite @loren</title>
+      <link>https://www.instagram.com/p/DRznVeEgoV9/</link>
+      <description>Iniziate a scaldarvi. Sabato 20 dicembre si torna a correre e lo facciamo con un super ospite @lorenzo_lotti_sempredicorsa &lt;br/&gt;&lt;br/&gt;Come sempre il ritrovo è al @karhustores.it , ma questa volta partiremo da piazza Galimberti, insieme al nostro partner @otticagrassocuneo con arrivo al @nuovo_cuneo &lt;br/&gt;&lt;br/&gt;Per i partecipanti, anche questa volta abbiamo pensato a non uno ma ben due gadget esclusivi!&lt;br/&gt;&lt;br/&gt;Quindi cosa devi ricordarti?&lt;br/&gt;📆 Sabato 20 dicembre&lt;br/&gt;🕒 9.30&lt;br/&gt;📍 Cuneo — da Piazza Galimberti al Nuovo&lt;br/&gt;&lt;br/&gt;Iscriviti al link in bio!&lt;br/&gt;&lt;br/&gt;#RTN26&lt;br/&gt;&lt;br/&gt;@karhustores.it&lt;br/&gt;@cedafare_official&lt;br/&gt;@karhu_trainingcenter&lt;br/&gt;@atleticaroatachiusani&lt;br/&gt;@karhuofficial&lt;br/&gt;@la_fausto_coppi&lt;br/&gt;@cofal.costruzioni&lt;br/&gt;@farmacia_bottasso&lt;br/&gt;@coesa.energy&lt;br/&gt;@clinicasalzanotirone&lt;br/&gt;@armando.group&lt;br/&gt;@otticagrassocuneo&lt;br/&gt;@bubble__bev &lt;br/&gt;@ethicsport&lt;br/&gt;@merlo_italia&lt;br/&gt;@gioielleria_rabino&lt;br/&gt;@staprol.srl&lt;br/&gt;@lilium_spaziomedico&lt;br/&gt;@pokeyfood</description>
+      <guid isPermaLink="false">https://www.instagram.com/p/DRznVeEgoV9/</guid>
+      <pubDate>Wed, 03 Dec 2025 15:33:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nuova KARHU FUSION XC “Beech” ❄️💥 La scarpa ideale per le stagioni più fredde. • Ti aspetta in Store</title>
       <link>https://www.instagram.com/p/DR1yByGjc9o/</link>
-      <description>&lt;img src="https://scontent-mxp1-1.cdninstagram.com/v/t51.82787-15/588684326_17913960228251183_8060838099367990607_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&amp;_nc_cat=105&amp;ig_cache_key=Mzc4MDEwNTE5NjE3Mzg3ODM5OA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMS5zZHIuQzMifQ%3D%3D&amp;_nc_ohc=qo1EsSqb5SMQ7kNvwEHxr0d&amp;_nc_oc=Adlef0_xLn76bR7mWnp_r3OD-MUkOp3wi8_b6V75lEU746rbUDhy7Q9S_MagSUYqxxOOPFayEUa3a6esk0gZPwyq&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-mxp1-1.cdninstagram.com&amp;_nc_gid=kpsxEKEr-t442c-ZUqzBHQ&amp;oh=00_Afr-QNsYMTcgxGhyZsKjpn0Ivafm95royGulOHLwyXXnaQ&amp;oe=6965ED9D" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;Nuova KARHU FUSION XC “Beech” ❄️💥&lt;br/&gt;La scarpa ideale per le stagioni più fredde.&lt;br/&gt;•&lt;br/&gt;Ti aspetta in Store a Cuneo e Torino.&lt;br/&gt;&lt;br/&gt;#karhu #fusionxc #karhulegend</description>
+      <description>Nuova KARHU FUSION XC “Beech” ❄️💥&lt;br/&gt;La scarpa ideale per le stagioni più fredde.&lt;br/&gt;•&lt;br/&gt;Ti aspetta in Store a Cuneo e Torino.&lt;br/&gt;&lt;br/&gt;#karhu #fusionxc #karhulegend</description>
       <guid isPermaLink="false">https://www.instagram.com/p/DR1yByGjc9o/</guid>
       <pubDate>Thu, 04 Dec 2025 11:45:00 +0000</pubDate>
     </item>
     <item>
-      <title>E se ti dicessimo che queste KARHU FUSION XC CORDURA® sono IMPERMEABILI?
-Questa Sneaker é tutto quel</title>
+      <title>E se ti dicessimo che queste KARHU FUSION XC CORDURA® sono IMPERMEABILI? Questa Sneaker é tutto quel</title>
       <link>https://www.instagram.com/p/DR68LYqjb3J/</link>
-      <description>&lt;img src="https://scontent-mxp2-1.cdninstagram.com/v/t51.82787-15/589211568_17914081551251183_4334728849780436867_n.jpg?stp=dst-jpg_e35_s1080x1080_tt6&amp;_nc_cat=110&amp;ig_cache_key=Mzc4MDg2MzY0NDA3OTU2ODcxOA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTQ0MC5zZHIuQzMifQ%3D%3D&amp;_nc_ohc=bcxTAf7Rxt4Q7kNvwHNEbS6&amp;_nc_oc=Admf5CQmBaDxvtXstwF05ApXN5zFmEdXlfBb2OkLMLJMv6IpnYAMaYKoTmCueR9WuR2H-uEiazJp2QRWJJ1vUtdR&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-mxp2-1.cdninstagram.com&amp;_nc_gid=kpsxEKEr-t442c-ZUqzBHQ&amp;oh=00_AfrxII2WtWfvs16q9jqzWFOXSnEY8AjrQknbVai0Jbsg9Q&amp;oe=6965D0B3" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;E se ti dicessimo che queste KARHU FUSION XC CORDURA® sono IMPERMEABILI?&lt;br/&gt;Questa Sneaker é tutto quello che puoi cercare per affrontare al meglio l’inverno ❄️&lt;br/&gt;•&lt;br/&gt;•&lt;br/&gt;Disponibili nello Store di Cuneo e Torino &lt;br/&gt;#karhu #fusionxc #karhulegend</description>
+      <description>E se ti dicessimo che queste KARHU FUSION XC CORDURA® sono IMPERMEABILI?&lt;br/&gt;Questa Sneaker é tutto quello che puoi cercare per affrontare al meglio l’inverno ❄️&lt;br/&gt;•&lt;br/&gt;•&lt;br/&gt;Disponibili nello Store di Cuneo e Torino &lt;br/&gt;#karhu #fusionxc #karhulegend</description>
       <guid isPermaLink="false">https://www.instagram.com/p/DR68LYqjb3J/</guid>
       <pubDate>Sat, 06 Dec 2025 11:50:00 +0000</pubDate>
     </item>
     <item>
       <title>KARHU FUSION XC CORDURA® “Silver Lining” nella sua versione Impermeabile, garantisce durata, protezi</title>
       <link>https://www.instagram.com/p/DSCqCWnDR68/</link>
-      <description>&lt;img src="https://scontent-mxp2-1.cdninstagram.com/v/t51.82787-15/597901051_17914539807251183_4195555014036859241_n.jpg?stp=dst-jpg_e35_s1080x1080_tt6&amp;_nc_cat=101&amp;ig_cache_key=Mzc4Mzc0NTg0MDY4NzczNDY0Mw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTQ0MC5zZHIuQzMifQ%3D%3D&amp;_nc_ohc=2gWnq_4LLa8Q7kNvwE21mSX&amp;_nc_oc=AdlNKpzs5d-GpFnZvnJtnpVKOCZuXD0swcA3QFes3KBqN5hYQEbD9IH7uMwXH3eDymDfvdrNKh6ZH2_nwf7MchU_&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-mxp2-1.cdninstagram.com&amp;_nc_gid=kpsxEKEr-t442c-ZUqzBHQ&amp;oh=00_AfpTJi28n_OjacmmH_R1A3OfhFS-nYroyAaAibHYsDx-iA&amp;oe=6965CEED" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;KARHU FUSION XC CORDURA® “Silver Lining” nella sua versione Impermeabile, garantisce durata, protezione e piedi asciutti.&lt;br/&gt;•&lt;br/&gt;Disponibile in Store a Cuneo e Torino 💥&lt;br/&gt;&lt;br/&gt;#karhu #karhulegend #fusionxc</description>
+      <description>KARHU FUSION XC CORDURA® “Silver Lining” nella sua versione Impermeabile, garantisce durata, protezione e piedi asciutti.&lt;br/&gt;•&lt;br/&gt;Disponibile in Store a Cuneo e Torino 💥&lt;br/&gt;&lt;br/&gt;#karhu #karhulegend #fusionxc</description>
       <guid isPermaLink="false">https://www.instagram.com/p/DSCqCWnDR68/</guid>
       <pubDate>Tue, 09 Dec 2025 11:45:00 +0000</pubDate>
     </item>
     <item>
-      <title>La KARHU IKONI 3.0 si contraddistingue per la sua Stabilità e Protezione.
-É una scarpa  da Running d</title>
+      <title>La KARHU IKONI 3.0 si contraddistingue per la sua Stabilità e Protezione. É una scarpa  da Running d</title>
       <link>https://www.instagram.com/p/DSHzpVojYlO/</link>
-      <description>&lt;img src="https://scontent-mxp1-1.cdninstagram.com/v/t51.82787-15/598680581_17914767093251183_5899142769675137946_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&amp;_nc_cat=105&amp;ig_cache_key=Mzc4NTIwNjA0NTk2NzQ4MDkxMw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEzMzN4MTc3Ny5zZHIuQzMifQ%3D%3D&amp;_nc_ohc=kDHkD8aoa58Q7kNvwEEC4SK&amp;_nc_oc=AdndglovoLgfCBWKRlAgLHJoQuTkTonPvBcCdB58Ml4w6EZ5VdEwq9RPzEHqFaxZL2d9DFqP6jlCxbz_dmVr3yoW&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-mxp1-1.cdninstagram.com&amp;_nc_gid=kpsxEKEr-t442c-ZUqzBHQ&amp;oh=00_Afp4WYJOLWUk-b6vo9dlcheAF9D7ssAJyZelq9zdegJ3MQ&amp;oe=6965D31E" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;La KARHU IKONI 3.0 si contraddistingue per la sua Stabilità e Protezione.&lt;br/&gt;É una scarpa  da Running dotata di Intersuola a doppia densità; questa garantisce comfort e stabilità durante le nostre corse quotidiane. &lt;br/&gt;Drop di 8mm e pianta larga completano il tutto.&lt;br/&gt;Non ti resta che provarla 😉&lt;br/&gt;•&lt;br/&gt;#karhu #karhurunning #karhuikoni</description>
+      <description>La KARHU IKONI 3.0 si contraddistingue per la sua Stabilità e Protezione.&lt;br/&gt;É una scarpa  da Running dotata di Intersuola a doppia densità; questa garantisce comfort e stabilità durante le nostre corse quotidiane. &lt;br/&gt;Drop di 8mm e pianta larga completano il tutto.&lt;br/&gt;Non ti resta che provarla 😉&lt;br/&gt;•&lt;br/&gt;#karhu #karhurunning #karhuikoni</description>
       <guid isPermaLink="false">https://www.instagram.com/p/DSHzpVojYlO/</guid>
       <pubDate>Thu, 11 Dec 2025 11:16:41 +0000</pubDate>
     </item>
     <item>
-      <title>Una Christmas Box pensata per chi vuole vivere (o far vivere) la Run the Night 2026 al meglio.
-
-Real</title>
+      <title>Una Christmas Box pensata per chi vuole vivere (o far vivere) la Run the Night 2026 al meglio.  Real</title>
       <link>https://www.instagram.com/p/DSKXrzqjeci/</link>
-      <description>&lt;img src="https://scontent-mxp1-1.cdninstagram.com/v/t51.82787-15/599705782_17855344740586196_4271764334201133673_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&amp;_nc_cat=107&amp;ig_cache_key=Mzc4NTk0MjYwMjI0MDM1NDA4Mg%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEzNTB4MTY4OC5zZHIuQzMifQ%3D%3D&amp;_nc_ohc=vVZ5zUTg4CgQ7kNvwFhYmes&amp;_nc_oc=Adk3IESp8_UpmDsYUtPd_7-YYFLEW713faf8uNM8X2ArPkxkuSovol3rxrrQfZZX2O2vO2Bb5rwSaZicY_Z9He2l&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-mxp1-1.cdninstagram.com&amp;_nc_gid=kpsxEKEr-t442c-ZUqzBHQ&amp;oh=00_AfqStB4t3kj_D-bJNTSEeO4mO558yRMLILQs_mofW_6Nlw&amp;oe=6965FD65" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;Una Christmas Box pensata per chi vuole vivere (o far vivere) la Run the Night 2026 al meglio.&lt;br/&gt;&lt;br/&gt;Realizzata in collaborazione con @karhustores.it , è disponibile in esclusiva nello shop di Cuneo.&lt;br/&gt;&lt;br/&gt;Una sorpresa semplice, completa e pensata per accompagnarti verso la prossima edizione.&lt;br/&gt;&lt;br/&gt;Da regalare o regalarsi.&lt;br/&gt;&lt;br/&gt;#RTN26&lt;br/&gt;&lt;br/&gt;@karhustores.it &lt;br/&gt;@cedafare_official&lt;br/&gt;@karhu_trainingcenter&lt;br/&gt;@parco1923 &lt;br/&gt;@atleticaroatachiusani&lt;br/&gt;@karhuofficial&lt;br/&gt;@la_fausto_coppi&lt;br/&gt;@cofal.costruzioni&lt;br/&gt;@farmacia_bottasso&lt;br/&gt;@coesa.energy&lt;br/&gt;@clinicasalzanotirone&lt;br/&gt;@armando.group&lt;br/&gt;@otticagrassocuneo&lt;br/&gt;@bubble__bev&lt;br/&gt;@ethicsport&lt;br/&gt;@merlo_italia&lt;br/&gt;@gioielleria_rabino&lt;br/&gt;@staprol.srl&lt;br/&gt;@lilium_spaziomedico&lt;br/&gt;@pokeyfood</description>
+      <description>Una Christmas Box pensata per chi vuole vivere (o far vivere) la Run the Night 2026 al meglio.&lt;br/&gt;&lt;br/&gt;Realizzata in collaborazione con @karhustores.it , è disponibile in esclusiva nello shop di Cuneo.&lt;br/&gt;&lt;br/&gt;Una sorpresa semplice, completa e pensata per accompagnarti verso la prossima edizione.&lt;br/&gt;&lt;br/&gt;Da regalare o regalarsi.&lt;br/&gt;&lt;br/&gt;#RTN26&lt;br/&gt;&lt;br/&gt;@karhustores.it &lt;br/&gt;@cedafare_official&lt;br/&gt;@karhu_trainingcenter&lt;br/&gt;@parco1923 &lt;br/&gt;@atleticaroatachiusani&lt;br/&gt;@karhuofficial&lt;br/&gt;@la_fausto_coppi&lt;br/&gt;@cofal.costruzioni&lt;br/&gt;@farmacia_bottasso&lt;br/&gt;@coesa.energy&lt;br/&gt;@clinicasalzanotirone&lt;br/&gt;@armando.group&lt;br/&gt;@otticagrassocuneo&lt;br/&gt;@bubble__bev&lt;br/&gt;@ethicsport&lt;br/&gt;@merlo_italia&lt;br/&gt;@gioielleria_rabino&lt;br/&gt;@staprol.srl&lt;br/&gt;@lilium_spaziomedico&lt;br/&gt;@pokeyfood</description>
       <guid isPermaLink="false">https://www.instagram.com/p/DSKXrzqjeci/</guid>
       <pubDate>Fri, 12 Dec 2025 11:39:09 +0000</pubDate>
     </item>
     <item>
-      <title>Corri con @lorenzo_lotti_sempredicorsa sabato 20 dicembre🏃🏻‍♂️🔥❤️
-Iscriviti con il link in bio🤩
-#run</title>
-      <link>https://www.instagram.com/p/DSQKnWeDCOA/</link>
-      <description>&lt;img src="https://scontent-mxp1-1.cdninstagram.com/v/t51.82787-15/600504702_18416246161143623_2210351639322709899_n.jpg?stp=dst-jpg_e15_p360x360_tt6&amp;_nc_cat=105&amp;ig_cache_key=Mzc4NzU3Mzk3MTI2OTcyMzAwODE4NDE2MjQ2MTU4MTQzNjIz.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEyNjZ4MjI0NC5zZHIuQzMifQ%3D%3D&amp;_nc_ohc=k_TFCRamrIYQ7kNvwEYjRE8&amp;_nc_oc=AdmqPkHUIfBp3lfAwTRVlwwEv2ZG8ZLVyp6aZXYacSd_yczS8WZTvee2LbPCL6_A7UfgULcDM6-pnV0XeE9GKVDD&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-mxp1-1.cdninstagram.com&amp;_nc_gid=kpsxEKEr-t442c-ZUqzBHQ&amp;oh=00_Afp4czSrz9XK9hDFyh-07A7EhN-Jwmiy_9h3Ou1xjNPngA&amp;oe=6965FD44" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;Corri con @lorenzo_lotti_sempredicorsa sabato 20 dicembre🏃🏻‍♂️🔥❤️&lt;br/&gt;Iscriviti con il link in bio🤩&lt;br/&gt;#runthenight #running #karhu</description>
-      <guid isPermaLink="false">https://www.instagram.com/p/DSQKnWeDCOA/</guid>
-      <pubDate>Sun, 14 Dec 2025 17:43:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>Passa a trovarci nei nostri Store di Cuneo e Torino!
-Aperti anche Domenica 14 e 21 Dicembre 😉
-
-#karh</title>
+      <title>Passa a trovarci nei nostri Store di Cuneo e Torino! Aperti anche Domenica 14 e 21 Dicembre 😉  #karh</title>
       <link>https://www.instagram.com/p/DSM7b3QjQMo/</link>
-      <description>&lt;img src="https://scontent-mxp2-1.cdninstagram.com/v/t51.82787-15/600214529_17914990605251183_8372821830239516329_n.jpg?stp=dst-jpg_e15_s640x640_tt6&amp;_nc_cat=109&amp;ig_cache_key=Mzc4NjY2Mjc4NjIxNTI0ODY4MDE3OTE0OTkwNjAyMjUxMTgz.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjcyMHgxMjgwLnNkci5DMyJ9&amp;_nc_ohc=XSP9aaKUg_cQ7kNvwG_gfjI&amp;_nc_oc=Adnq8KCnhFHsj4DEXE_Kd8jsZtfSgpXUXF0DFKuSAzyLTEtdq7kfMXO6SjNP2PwgPNY5QLj7cPAVveQJ0YL4L3Lv&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-mxp2-1.cdninstagram.com&amp;_nc_gid=kpsxEKEr-t442c-ZUqzBHQ&amp;oh=00_AfrITrhmUOFhWUWcfyLclQGFElacOWEuOhuclue3k27v_Q&amp;oe=6965DF5F" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;Passa a trovarci nei nostri Store di Cuneo e Torino!&lt;br/&gt;Aperti anche Domenica 14 e 21 Dicembre 😉&lt;br/&gt;&lt;br/&gt;#karhu #karhugifts #karhustore</description>
+      <description>Passa a trovarci nei nostri Store di Cuneo e Torino!&lt;br/&gt;Aperti anche Domenica 14 e 21 Dicembre 😉&lt;br/&gt;&lt;br/&gt;#karhu #karhugifts #karhustore</description>
       <guid isPermaLink="false">https://www.instagram.com/p/DSM7b3QjQMo/</guid>
       <pubDate>Sat, 13 Dec 2025 11:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>20.12
-Una mattina fredda, l’energia giusta e una community che ha scelto di muoversi insieme.
-
-Insie</title>
+      <title>20.12 Una mattina fredda, l’energia giusta e una community che ha scelto di muoversi insieme.  Insie</title>
       <link>https://www.instagram.com/p/DSwvojBjdwm/</link>
-      <description>&lt;img src="https://scontent-mxp2-1.cdninstagram.com/v/t51.82787-15/607381409_17857370817586196_557875211852550717_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&amp;_nc_cat=100&amp;ig_cache_key=Mzc5Njc0Mzk1OTgxNzg1MDI0Nw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkxOS5zZHIuQzMifQ%3D%3D&amp;_nc_ohc=y6VVFg4Gqz8Q7kNvwGx2N7c&amp;_nc_oc=AdlhZ5jjqzUEs29G9MGmbhsicvxtc9hH3nnm5r6r3aLbbmWGN5gpjUvHMRYlSIqf18L8ivqh7dpriZdJpy-9PoYI&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-mxp2-1.cdninstagram.com&amp;_nc_gid=kpsxEKEr-t442c-ZUqzBHQ&amp;oh=00_AfqFdtcdXiUsvygKkN4_fZw-ij3navCziSd-NmXuy32q5w&amp;oe=6965FAF6" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;20.12&lt;br/&gt;Una mattina fredda, l’energia giusta e una community che ha scelto di muoversi insieme.&lt;br/&gt;&lt;br/&gt;Insieme a @lorenzo_lotti_sempredicorsa , abbiamo condiviso chilometri, fatica e passione.&lt;br/&gt;Non solo sport, ma voglia di stare insieme, di spingersi un po’ più in là, di sentirsi parte di qualcosa.&lt;br/&gt;&lt;br/&gt;Grazie a tutti i partecipanti e agli sponsor&lt;br/&gt;&lt;br/&gt;@cedafare_official&lt;br/&gt;@atleticaroatachiusani&lt;br/&gt;@la_fausto_coppi&lt;br/&gt;@karhustores.it&lt;br/&gt;@karhurunning&lt;br/&gt;@karhu_trainingcenter&lt;br/&gt;@karhuofficial&lt;br/&gt;@cofal.costruzioni&lt;br/&gt;@farmacia_bottasso&lt;br/&gt;@coesa.energy&lt;br/&gt;@clinicasalzanotirone&lt;br/&gt;@armando.group&lt;br/&gt;@otticagrassocuneo&lt;br/&gt;@bubble__bev&lt;br/&gt;@ethicsport&lt;br/&gt;@merlo_italia&lt;br/&gt;@gioielleria_rabino&lt;br/&gt;@staprol.srl&lt;br/&gt;@lilium_spaziomedico&lt;br/&gt;@nuovo_cuneo&lt;br/&gt;@pokeyfood&lt;br/&gt;&lt;br/&gt;#RTN26&lt;br/&gt;&lt;br/&gt;📸 @paolo_cilli_fotografo</description>
+      <description>20.12&lt;br/&gt;Una mattina fredda, l’energia giusta e una community che ha scelto di muoversi insieme.&lt;br/&gt;&lt;br/&gt;Insieme a @lorenzo_lotti_sempredicorsa , abbiamo condiviso chilometri, fatica e passione.&lt;br/&gt;Non solo sport, ma voglia di stare insieme, di spingersi un po’ più in là, di sentirsi parte di qualcosa.&lt;br/&gt;&lt;br/&gt;Grazie a tutti i partecipanti e agli sponsor&lt;br/&gt;&lt;br/&gt;@cedafare_official&lt;br/&gt;@atleticaroatachiusani&lt;br/&gt;@la_fausto_coppi&lt;br/&gt;@karhustores.it&lt;br/&gt;@karhurunning&lt;br/&gt;@karhu_trainingcenter&lt;br/&gt;@karhuofficial&lt;br/&gt;@cofal.costruzioni&lt;br/&gt;@farmacia_bottasso&lt;br/&gt;@coesa.energy&lt;br/&gt;@clinicasalzanotirone&lt;br/&gt;@armando.group&lt;br/&gt;@otticagrassocuneo&lt;br/&gt;@bubble__bev&lt;br/&gt;@ethicsport&lt;br/&gt;@merlo_italia&lt;br/&gt;@gioielleria_rabino&lt;br/&gt;@staprol.srl&lt;br/&gt;@lilium_spaziomedico&lt;br/&gt;@nuovo_cuneo&lt;br/&gt;@pokeyfood&lt;br/&gt;&lt;br/&gt;#RTN26&lt;br/&gt;&lt;br/&gt;📸 @paolo_cilli_fotografo</description>
       <guid isPermaLink="false">https://www.instagram.com/p/DSwvojBjdwm/</guid>
       <pubDate>Sat, 27 Dec 2025 09:19:34 +0000</pubDate>
     </item>
     <item>
-      <title>Insieme a @lorenzo_lotti_sempredicorsa abbiamo acceso l’ultima corsa dell’anno.
-
-La RTN si avvicina.</title>
+      <title>Insieme a @lorenzo_lotti_sempredicorsa abbiamo acceso l’ultima corsa dell’anno.  La RTN si avvicina.</title>
       <link>https://www.instagram.com/p/DS2FoYpDfzy/</link>
-      <description>&lt;img src="https://scontent-mxp2-1.cdninstagram.com/v/t51.71878-15/607013359_1983574742568527_1161605334596128143_n.jpg?stp=dst-jpg_e15_p360x360_tt6&amp;_nc_cat=101&amp;ig_cache_key=Mzc5ODI0ODEwMTIwMzgwMzM3OA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjY0MHgxMTM2LnNkci5DMyJ9&amp;_nc_ohc=x5jtlkY5vdMQ7kNvwF6M-hn&amp;_nc_oc=Adk08NlEaMvJTGltsfk4yO2s2YzmSHfA_vZgr0rtsmuMFo162GQvfNpFYMyQg8YfCzr4eQ3aeqLJnbVHfAG3vlBs&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-mxp2-1.cdninstagram.com&amp;_nc_gid=kpsxEKEr-t442c-ZUqzBHQ&amp;oh=00_AfrzyWNIUeOQW67QI6ou9CLZuPfJRVZYv85PNrrDAu9DVQ&amp;oe=6965EB28" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;Insieme a @lorenzo_lotti_sempredicorsa abbiamo acceso l’ultima corsa dell’anno.&lt;br/&gt;&lt;br/&gt;La RTN si avvicina.&lt;br/&gt;Tenetevi pronti.&lt;br/&gt;Qui non ci si ferma💥&lt;br/&gt;&lt;br/&gt;@cedafare_official&lt;br/&gt;@atleticaroatachiusani&lt;br/&gt;@la_fausto_coppi&lt;br/&gt;@karhustores.it&lt;br/&gt;@karhurunning&lt;br/&gt;@karhu_trainingcenter&lt;br/&gt;@karhuofficial&lt;br/&gt;@cofal.costruzioni&lt;br/&gt;@farmacia_bottasso&lt;br/&gt;@coesa.energy&lt;br/&gt;@clinicasalzanotirone&lt;br/&gt;@armando.group&lt;br/&gt;@otticagrassocuneo&lt;br/&gt;@bubble__bev&lt;br/&gt;@ethicsport&lt;br/&gt;@merlo_italia&lt;br/&gt;@gioielleria_rabino&lt;br/&gt;@staprol.srl&lt;br/&gt;@lilium_spaziomedico&lt;br/&gt;@nuovo_cuneo&lt;br/&gt;@pokeyfood&lt;br/&gt;&lt;br/&gt;#RTN26&lt;br/&gt;&lt;br/&gt;📸 @paolo_cilli_fotografo</description>
+      <description>Insieme a @lorenzo_lotti_sempredicorsa abbiamo acceso l’ultima corsa dell’anno.&lt;br/&gt;&lt;br/&gt;La RTN si avvicina.&lt;br/&gt;Tenetevi pronti.&lt;br/&gt;Qui non ci si ferma💥&lt;br/&gt;&lt;br/&gt;@cedafare_official&lt;br/&gt;@atleticaroatachiusani&lt;br/&gt;@la_fausto_coppi&lt;br/&gt;@karhustores.it&lt;br/&gt;@karhurunning&lt;br/&gt;@karhu_trainingcenter&lt;br/&gt;@karhuofficial&lt;br/&gt;@cofal.costruzioni&lt;br/&gt;@farmacia_bottasso&lt;br/&gt;@coesa.energy&lt;br/&gt;@clinicasalzanotirone&lt;br/&gt;@armando.group&lt;br/&gt;@otticagrassocuneo&lt;br/&gt;@bubble__bev&lt;br/&gt;@ethicsport&lt;br/&gt;@merlo_italia&lt;br/&gt;@gioielleria_rabino&lt;br/&gt;@staprol.srl&lt;br/&gt;@lilium_spaziomedico&lt;br/&gt;@nuovo_cuneo&lt;br/&gt;@pokeyfood&lt;br/&gt;&lt;br/&gt;#RTN26&lt;br/&gt;&lt;br/&gt;📸 @paolo_cilli_fotografo</description>
       <guid isPermaLink="false">https://www.instagram.com/p/DS2FoYpDfzy/</guid>
       <pubDate>Mon, 29 Dec 2025 11:14:15 +0000</pubDate>
     </item>
     <item>
-      <title>Il viaggio verso la Run the Night 2026 è appena iniziato, e non saremo di certo noi a fermarci.
-
-Sei</title>
+      <title>Il viaggio verso la Run the Night 2026 è appena iniziato, e non saremo di certo noi a fermarci.  Sei</title>
       <link>https://www.instagram.com/p/DQezVp3DVjo/</link>
-      <description>&lt;img src="https://scontent-mxp1-1.cdninstagram.com/v/t51.71878-15/575143850_1127787796228593_9047727296408537276_n.jpg?stp=dst-jpg_e15_p360x360_tt6&amp;_nc_cat=103&amp;ig_cache_key=Mzc1NTY2NDkyNzcwMTY4NjUwNDIwNDAzNjQ2ODAxNTMzNDk%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjY0MHgxMTM2LnNkci5DMyJ9&amp;_nc_ohc=-AOJEYsq0iAQ7kNvwEEe3Tk&amp;_nc_oc=Adlz0_iYkjJdqIz7kPjvga19XiEa34NKBLA7MufzhIcBnfOyWpuqH6I_y6FTV9AhlCOjyDvVquWhqhCTumuhsfVA&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-mxp1-1.cdninstagram.com&amp;_nc_gid=kpsxEKEr-t442c-ZUqzBHQ&amp;oh=00_AfqjW7xbmAOmpHyE1uOvxg27pmxFximFbfWAc0xGigyWDQ&amp;oe=696603EC" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;Il viaggio verso la Run the Night 2026 è appena iniziato, e non saremo di certo noi a fermarci.&lt;br/&gt;&lt;br/&gt;Sei dei nostri?&lt;br/&gt;&lt;br/&gt;@ghemonofficial&lt;br/&gt;&lt;br/&gt;@karhuofficial&lt;br/&gt;@la_fausto_coppi&lt;br/&gt;@cofal.costruzioni&lt;br/&gt;@farmacia_bottasso&lt;br/&gt;@coesa.energy&lt;br/&gt;@clinicasalzanotirone&lt;br/&gt;@armando.group&lt;br/&gt;@otticagrassocuneo&lt;br/&gt;@bubble__bev &lt;br/&gt;@ethicsport&lt;br/&gt;@merlo_italia&lt;br/&gt;@gioielleria_rabino&lt;br/&gt;@staprol.srl&lt;br/&gt;@lilium_spaziomedico&lt;br/&gt;@pokeycuneo&lt;br/&gt;&lt;br/&gt;#RTN26&lt;br/&gt;&lt;br/&gt;📹 @tia.visuals</description>
+      <description>Il viaggio verso la Run the Night 2026 è appena iniziato, e non saremo di certo noi a fermarci.&lt;br/&gt;&lt;br/&gt;Sei dei nostri?&lt;br/&gt;&lt;br/&gt;@ghemonofficial&lt;br/&gt;&lt;br/&gt;@karhuofficial&lt;br/&gt;@la_fausto_coppi&lt;br/&gt;@cofal.costruzioni&lt;br/&gt;@farmacia_bottasso&lt;br/&gt;@coesa.energy&lt;br/&gt;@clinicasalzanotirone&lt;br/&gt;@armando.group&lt;br/&gt;@otticagrassocuneo&lt;br/&gt;@bubble__bev &lt;br/&gt;@ethicsport&lt;br/&gt;@merlo_italia&lt;br/&gt;@gioielleria_rabino&lt;br/&gt;@staprol.srl&lt;br/&gt;@lilium_spaziomedico&lt;br/&gt;@pokeycuneo&lt;br/&gt;&lt;br/&gt;#RTN26&lt;br/&gt;&lt;br/&gt;📹 @tia.visuals</description>
       <guid isPermaLink="false">https://www.instagram.com/p/DQezVp3DVjo/</guid>
       <pubDate>Fri, 31 Oct 2025 17:07:15 +0000</pubDate>
     </item>
     <item>
       <title>Passa al Karhu Store Cuneo e ti seguiremo step by step nella scelta della tua SCARPA da RUNNING idea</title>
       <link>https://www.instagram.com/p/DIld_MvNjHo/</link>
-      <description>&lt;img src="https://scontent-mxp2-1.cdninstagram.com/v/t51.75761-15/491442265_17887382286251183_6911733392556393981_n.jpg?stp=dst-jpg_e15_s640x640_tt6&amp;_nc_cat=101&amp;ig_cache_key=MzYxMzQyNjE2MjM4NzUzMDIxNg%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjcyMHgxMjgwLnNkci5DMyJ9&amp;_nc_ohc=rwzaAhOnnqUQ7kNvwHdhGhh&amp;_nc_oc=AdmOqYOL28u-ZbIJHgsMZnoP5DwnBXoIjiooLgV8qofbnQCcxuzL6rLS7SnJrE4mLIgVe7hJkeCtSaCv_AT05i3m&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-mxp2-1.cdninstagram.com&amp;_nc_gid=kpsxEKEr-t442c-ZUqzBHQ&amp;oh=00_Afo6v-21--GmtdFoHUM89iLOjbQMYmHgxBGHygBmvoSlfA&amp;oe=6965EA8A" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;Passa al Karhu Store Cuneo e ti seguiremo step by step nella scelta della tua SCARPA da RUNNING ideale 🏃🏻‍♀️🩵🏃🏻.&lt;br/&gt;&lt;br/&gt;#karhurunning #karhu #karhustorecuneo</description>
+      <description>Passa al Karhu Store Cuneo e ti seguiremo step by step nella scelta della tua SCARPA da RUNNING ideale 🏃🏻‍♀️🩵🏃🏻.&lt;br/&gt;&lt;br/&gt;#karhurunning #karhu #karhustorecuneo</description>
       <guid isPermaLink="false">https://www.instagram.com/p/DIld_MvNjHo/</guid>
       <pubDate>Fri, 18 Apr 2025 11:04:18 +0000</pubDate>
     </item>
     <item>
-      <title>🎅🏻🎁KARHU CHRISTMAS BOX ❄️🎄
-Hai già pensato ai regali? Nessun problema…
-Scegli la Box KARHU in cui al</title>
+      <title>🎅🏻🎁KARHU CHRISTMAS BOX ❄️🎄 Hai già pensato ai regali? Nessun problema... Scegli la Box KARHU in cui </title>
       <link>https://www.instagram.com/p/DRxNBdGjS5r/</link>
-      <description>&lt;img src="https://scontent-mxp2-1.cdninstagram.com/v/t51.82787-15/587935066_17913779913251183_8177088076410412887_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&amp;_nc_cat=100&amp;ig_cache_key=Mzc3ODg1ODgzNjkxMzEwNjUzOQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0MTN4MTg4NC5zZHIuQzMifQ%3D%3D&amp;_nc_ohc=-AYcaPrY94IQ7kNvwGpd5u9&amp;_nc_oc=AdldcLn50ZjWguXFmDqAskKQdIrVDsbuKtnWFPwfLJLymWXgdtnZ8FVYO6sD0XWnqcTy0BAjmxAfj8WnBXJ2QB9A&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-mxp2-1.cdninstagram.com&amp;_nc_gid=kpsxEKEr-t442c-ZUqzBHQ&amp;oh=00_AfqCzDWCRszEkHITdUhYn4hB8ws37tYTL298tJqMQbhd_A&amp;oe=6965EC61" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;🎅🏻🎁KARHU CHRISTMAS BOX ❄️🎄&lt;br/&gt;Hai già pensato ai regali? Nessun problema…&lt;br/&gt;Scegli la Box KARHU in cui all’interno troverai:&lt;br/&gt;&lt;br/&gt;👟1 paio di SCARPE Karhu a scelta &lt;br/&gt;🏃🏻‍♀️1 PETTORALE per la @runthenight2026 &lt;br/&gt;🧴1 KIT viaggio by @parco1923 &lt;br/&gt;🏋🏻 1 INGRESSO presso @karhu_trainingcenter &lt;br/&gt;📚 1 LIBRO a scelta &lt;br/&gt;🍯 1 vasetto di MIELE locale&lt;br/&gt;&lt;br/&gt;Il tutto a soli €200,00.&lt;br/&gt;&lt;br/&gt;Ti aspetta negli Store di Cuneo e Torino&lt;br/&gt;&lt;br/&gt;Buone Feste 😉&lt;br/&gt;&lt;br/&gt;#karhu #karhuofficial</description>
+      <description>🎅🏻🎁KARHU CHRISTMAS BOX ❄️🎄&lt;br/&gt;Hai già pensato ai regali? Nessun problema...&lt;br/&gt;Scegli la Box KARHU in cui all’interno troverai:&lt;br/&gt;&lt;br/&gt;👟1 paio di SCARPE Karhu a scelta &lt;br/&gt;🏃🏻‍♀️1 PETTORALE per la @runthenight2026 &lt;br/&gt;🧴1 KIT viaggio by @parco1923 &lt;br/&gt;🏋🏻 1 INGRESSO presso @karhu_trainingcenter &lt;br/&gt;📚 1 LIBRO a scelta &lt;br/&gt;🍯 1 vasetto di MIELE locale&lt;br/&gt;&lt;br/&gt;Il tutto a soli €200,00.&lt;br/&gt;&lt;br/&gt;Ti aspetta negli Store di Cuneo e Torino&lt;br/&gt;&lt;br/&gt;Buone Feste 😉&lt;br/&gt;&lt;br/&gt;#karhu #karhuofficial</description>
       <guid isPermaLink="false">https://www.instagram.com/p/DRxNBdGjS5r/</guid>
       <pubDate>Tue, 02 Dec 2025 17:04:58 +0000</pubDate>
     </item>

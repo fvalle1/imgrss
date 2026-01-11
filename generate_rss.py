@@ -6,9 +6,11 @@ from feedgen.feed import FeedGenerator
 from pathlib import Path
 import pyotp
 import random
+import unicodedata
 
 FEEDS_DIR = "feeds"
 MAX_POSTS = 20
+BASE_URL = "https://raw.githubusercontent.com/fvalle1/imgrss/refs/heads/main/feeds"
 SESSION_FILE = "ig_session.json"
 
 def ig_login():
@@ -28,6 +30,11 @@ def ig_login():
         "platform": "iOS",
         "os_version": "17.1"
     })
+    
+    session_json = os.getenv("IG_SESSION_JSON")
+    if session_json:
+        with open(SESSION_FILE, "w") as f:
+            f.write(session_json)
 
     if os.path.exists(SESSION_FILE):
         cl.load_settings(SESSION_FILE)
@@ -56,6 +63,16 @@ def ig_login():
     cl.dump_settings(SESSION_FILE)
     return cl
 
+def clean_text(text):
+    """
+    Rimuove i font speciali di Instagram (grassetti matematici, ecc.) 
+    e li converte in testo standard leggibile dai feed reader.
+    """
+    if not text:
+        return ""
+    # Normalizzazione NFKC: trasforma i caratteri speciali "estetici" in caratteri normali
+    return unicodedata.normalize('NFKC', text)
+
 def create_feed_dir():
     Path(FEEDS_DIR).mkdir(exist_ok=True)
 
@@ -79,12 +96,12 @@ def pick_image_url(item: dict) -> str | None:
                 return candidates[0].get("url")
 
     # Reels/videos may have thumbnail_url-ish fields
-    return item.get("thumbnail_url") or item.get("display_url")
+    return None
 
 def caption_text(item: dict) -> str:
     cap = item.get("caption")
     if isinstance(cap, dict):
-        return (cap.get("text") or "").strip()
+        return clean_text((cap.get("text") or "").strip())
     return ""
 
 def permalink_from_code(code: str) -> str:
@@ -108,6 +125,7 @@ def generate_rss_for_account(cl: Client, account_name: str):
     fg = FeedGenerator()
     fg.title(f"@{account_name} - Instagram")
     fg.link(href=f"https://www.instagram.com/{account_name}/", rel="alternate")
+    fg.link(href=f"{BASE_URL}/{account_name}.xml", rel="self")
     fg.description(f"Instagram posts from @{account_name}")
     fg.language("en")
 
@@ -122,7 +140,7 @@ def generate_rss_for_account(cl: Client, account_name: str):
         fe = fg.add_entry()
         fe.id(url or str(it.get("pk") or code))
         fe.link(href=url or f"https://www.instagram.com/{account_name}/")
-        fe.title(cap[:100] if cap else f"Post by @{account_name}")
+        fe.title(cap[:100].replace("\n", " ") if cap else f"Post by @{account_name}")
 
         desc = ""
         if img:

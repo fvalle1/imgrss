@@ -36,6 +36,7 @@ jobs:
           IG_USERNAME: ${{ secrets.IG_USERNAME }}
           IG_PASSWORD: ${{ secrets.IG_PASSWORD }}
           IG_TOTP_SECRET: ${{ secrets.IG_TOTP_SECRET }}
+          IG_SESSION_JSON: ${{ secrets.IG_SESSION_JSON }}
           ACCOUNTS: ${{ secrets.ACCOUNTS }}
           DEBUG: False
         run: |

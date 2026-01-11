@@ -2,142 +2,96 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>@comedywildlifephoto - Instagram</title>
-    <link>https://www.instagram.com/comedywildlifephoto/</link>
+    <link>https://raw.githubusercontent.com/fvalle1/imgrss/main/feeds/comedywildlifephoto.xml</link>
     <description>Instagram posts from @comedywildlifephoto</description>
+    <atom:link href="https://raw.githubusercontent.com/fvalle1/imgrss/main/feeds/comedywildlifephoto.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Jan 2026 20:43:24 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Jan 2026 22:22:52 +0000</lastBuildDate>
     <item>
-      <title>THINK TANK BIRD CATEGORY WINNER 
-
- ——WARREN PRICE——
-
-@hahnemuehle_uk @thinktankphoto @amazinginterne</title>
-      <link>https://www.instagram.com/p/DSF3hFpDNRS/</link>
-      <description>&lt;img src="https://scontent-mxp1-1.cdninstagram.com/v/t51.82787-15/598999910_18548762149060175_8429537516255626271_n.jpg?stp=dst-jpg_e35_s1080x1080_tt6&amp;_nc_cat=102&amp;ig_cache_key=Mzc4NDY3NTIyODIzMzAyODY5MA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTEyMi5zZHIuQzMifQ%3D%3D&amp;_nc_ohc=GwtQjFVPB1oQ7kNvwHyU37L&amp;_nc_oc=AdmSo4wbWPGZyRUEhf8TAsmzTcs4qAaCAE_-We8rKzvvtZ4dyob2unsl9Ndrass_QmUSjJy7dJG7gxO4mL9AC6V0&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-mxp1-1.cdninstagram.com&amp;_nc_gid=MmvA5L3OSKaPPOwCmUl5yg&amp;oh=00_AfprZTwOMBCcEyTEv-J8jAoo_aJwUEHRgIzByXMeNnC_CQ&amp;oe=6965D03F" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;THINK TANK BIRD CATEGORY WINNER &lt;br/&gt;&lt;br/&gt; ——WARREN PRICE——&lt;br/&gt;&lt;br/&gt;@hahnemuehle_uk @thinktankphoto @amazinginternet @nikoneurope @alexwalkerserian @sullamphoto @pj_hicks &lt;br/&gt;@whitleyawards @bornfreefoundation #comedywildlife #funnyanimals #positiveemotion #conservation #humour</description>
-      <guid isPermaLink="false">https://www.instagram.com/p/DSF3hFpDNRS/</guid>
-      <pubDate>Wed, 10 Dec 2025 17:41:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>FISH AND OTHER AQUATIC SPECIES
-  CATEGORY WINNER
-
- ——JENNY STOCK——
-
-@hahnemuehle_uk @thinktankphoto </title>
-      <link>https://www.instagram.com/p/DSF3yjIDD29/</link>
-      <description>&lt;img src="https://scontent-mxp2-1.cdninstagram.com/v/t51.82787-15/598474655_18548762917060175_5769609115974457740_n.jpg?stp=dst-jpg_e35_s1080x1080_tt6&amp;_nc_cat=109&amp;ig_cache_key=Mzc4NDY3NjQyODEyMjcwMTI0NQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4OTYwLnNkci5DMyJ9&amp;_nc_ohc=vczrOWxaCJUQ7kNvwH-Cy2q&amp;_nc_oc=AdlE1Oj3vLimyaexA_w9TDCkEGQbiqfZM6P5nT5gNaOHHOlGCBdwmYZloJ_vauCF_lzxmxvGLRhBLnpwTOgpZASf&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-mxp2-1.cdninstagram.com&amp;_nc_gid=MmvA5L3OSKaPPOwCmUl5yg&amp;oh=00_Afra0Okq3BaFO6-KC-GDqfVJTW_lsm9PbmoQHfEpJBy3RA&amp;oe=6965D59A" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;FISH AND OTHER AQUATIC SPECIES&lt;br/&gt;  CATEGORY WINNER&lt;br/&gt;&lt;br/&gt; ——JENNY STOCK——&lt;br/&gt;&lt;br/&gt;@hahnemuehle_uk @thinktankphoto @amazinginternet @nikoneurope @alexwalkerserian @sullamphoto @pj_hicks &lt;br/&gt;@whitleyawards @bornfreefoundation #comedywildlife #funnyanimals @jenniferjostock #positiveemotion #conservation #humour</description>
-      <guid isPermaLink="false">https://www.instagram.com/p/DSF3yjIDD29/</guid>
-      <pubDate>Wed, 10 Dec 2025 17:43:29 +0000</pubDate>
-    </item>
-    <item>
-      <title>NIKON JUNIOR PHOTOGRAPHER 
- &amp;REPTILE, AMPHIBIAN 
-  AND INSECT CATEGORY WINNER 
-
- ——GRAYSON BELL ——
-
-</title>
-      <link>https://www.instagram.com/p/DSF4bbYDPNq/</link>
-      <description>&lt;img src="https://scontent-mxp1-1.cdninstagram.com/v/t51.82787-15/598932784_18548763703060175_2362760836628211819_n.jpg?stp=dst-jpg_e35_s1080x1080_tt6&amp;_nc_cat=103&amp;ig_cache_key=Mzc4NDY3OTIzNzI5OTc5NDc5NA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4ODEwLnNkci5DMyJ9&amp;_nc_ohc=huiBJ4bI3sMQ7kNvwHliMHs&amp;_nc_oc=AdmK0twDyqmmHXoUW-Udbo1q9ZxN6_mLdNbIYMtAUI0FzRv8_UC7OOjLI8bFtfCkHwz3eBuiuc589zen-qSPCH-w&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-mxp1-1.cdninstagram.com&amp;_nc_gid=MmvA5L3OSKaPPOwCmUl5yg&amp;oh=00_Afr5qDCjIcYGdb_nlswRfqiepcEJuEkDPQlAqHTXTJzsFg&amp;oe=6965F124" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;NIKON JUNIOR PHOTOGRAPHER &lt;br/&gt; &amp;REPTILE, AMPHIBIAN &lt;br/&gt;  AND INSECT CATEGORY WINNER &lt;br/&gt;&lt;br/&gt; ——GRAYSON BELL ——&lt;br/&gt;&lt;br/&gt;@hahnemuehle_uk @thinktankphoto @amazinginternet @nikoneurope @alexwalkerserian @sullamphoto @pj_hicks &lt;br/&gt;@whitleyawards @bornfreefoundation #comedywildlife #funnyanimals @graysonbellphotography #positiveemotion #conservation #humour</description>
-      <guid isPermaLink="false">https://www.instagram.com/p/DSF4bbYDPNq/</guid>
-      <pubDate>Wed, 10 Dec 2025 17:49:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>NIKON YOUNG PHOTOGRAPHER 
-  CATEGORY WINNER 
-
- ——PAULA RUSTEMEIER——
-
-@hahnemuehle_uk @thinktankphoto</title>
-      <link>https://www.instagram.com/p/DSF5yunjMSo/</link>
-      <description>&lt;img src="https://scontent-mxp2-1.cdninstagram.com/v/t51.82787-15/598972771_18548765752060175_2777024917392704323_n.jpg?stp=dst-jpg_e35_s1080x1080_tt6&amp;_nc_cat=101&amp;ig_cache_key=Mzc4NDY4NTIzNjU1NTQwMDM2MA%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4OTYyLnNkci5DMyJ9&amp;_nc_ohc=R2Ux5ezP7U8Q7kNvwEvRsOr&amp;_nc_oc=Adm9cychA3QT4ffgvg5FwN8xXNXomcIoSOjCru90e-9hcxknk-gkC59qyrUJX427VU2uZCdUJRGnAbyPpYOXnf4_&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-mxp2-1.cdninstagram.com&amp;_nc_gid=MmvA5L3OSKaPPOwCmUl5yg&amp;oh=00_AfqMV8surFCdVmtLQ3nwViqCbpfFmGeT-GUKdu7pe_IkCQ&amp;oe=6965E02C" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;NIKON YOUNG PHOTOGRAPHER &lt;br/&gt;  CATEGORY WINNER &lt;br/&gt;&lt;br/&gt; ——PAULA RUSTEMEIER——&lt;br/&gt;&lt;br/&gt;@hahnemuehle_uk @thinktankphoto @amazinginternet @nikoneurope @alexwalkerserian @sullamphoto @pj_hicks &lt;br/&gt;@whitleyawards @bornfreefoundation #comedywildlife #funnyanimals #positiveemotion #conservation #humour</description>
-      <guid isPermaLink="false">https://www.instagram.com/p/DSF5yunjMSo/</guid>
-      <pubDate>Wed, 10 Dec 2025 18:00:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>It’s your turn to be the judges!  Don’t trust the professionals, what do they know??
-
-The Sterna Peo</title>
+      <title>It’s your turn to be the judges!  Don’t trust the professionals, what do they know??  The Sterna Peo</title>
       <link>https://www.instagram.com/p/DSKfbZljLTV/</link>
-      <description>&lt;img src="https://scontent-mxp1-1.cdninstagram.com/v/t51.82787-15/598657694_18549126052060175_6616634483309807040_n.jpg?stp=dst-jpg_e35_s1080x1080_tt6&amp;_nc_cat=104&amp;ig_cache_key=Mzc4NTk3NjY1MDk5NjE2MjU5OQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTA2Mi5zZHIuQzMifQ%3D%3D&amp;_nc_ohc=AHdclhvFGIgQ7kNvwGrGQHi&amp;_nc_oc=AdnpA4_rGfNAvmJ6IdKE5qFnlALgM74LFAmmCAy2-94g9YMYBZ4tl114AGKit_CAH8fawDBHTmBBOWgeNnS6wI18&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-mxp1-1.cdninstagram.com&amp;_nc_gid=MmvA5L3OSKaPPOwCmUl5yg&amp;oh=00_Afo4UDLCmbf0nxGiHefKIv7TUuOtnyMgA--sHKqNtMEwPA&amp;oe=6965D055" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;It’s your turn to be the judges!  Don’t trust the professionals, what do they know??&lt;br/&gt;&lt;br/&gt;The Sterna Peoples Choice vote is OPEN. For a chance to win £500 all you need to do is click on the link, and vote for the image you believe is the best of this years 40 finalists. &lt;br/&gt;&lt;br/&gt;Go to the link on our profile!&lt;br/&gt;Or copy and paste this into your browser:&lt;br/&gt;&lt;br/&gt;bit.ly/4pX08zy&lt;br/&gt;&lt;br/&gt;And that’s it!! Two clicks, and maybe £500 to the good!  You will automatically be entered into the prize draw from which a winner will be selected and announced on March 14th. &lt;br/&gt;&lt;br/&gt;Good luck! Get your friends to vote! And anyone else you know!&lt;br/&gt;&lt;br/&gt;______________________________________&lt;br/&gt;STERNA’s mission is to highlight the fascination and uniqueness of wildlife and nature. In particular, it aims to find ways to generate attention and interest through creative editing that deviates from standard photographic representations and general rules. &lt;br/&gt;&lt;br/&gt;Technically, it is very much in line with modern photography, using only conventional photo editing methods and without extensive use of artificial intelligence intelligence. &lt;br/&gt;&lt;br/&gt;@achimsterna #peopleschoice #comedywildlife #funnyanimals #win500 #judgingtime #prints</description>
+      <description>It’s your turn to be the judges!  Don’t trust the professionals, what do they know??&lt;br/&gt;&lt;br/&gt;The Sterna Peoples Choice vote is OPEN. For a chance to win £500 all you need to do is click on the link, and vote for the image you believe is the best of this years 40 finalists. &lt;br/&gt;&lt;br/&gt;Go to the link on our profile!&lt;br/&gt;Or copy and paste this into your browser:&lt;br/&gt;&lt;br/&gt;bit.ly/4pX08zy&lt;br/&gt;&lt;br/&gt;And that’s it!! Two clicks, and maybe £500 to the good!  You will automatically be entered into the prize draw from which a winner will be selected and announced on March 14th. &lt;br/&gt;&lt;br/&gt;Good luck! Get your friends to vote! And anyone else you know!&lt;br/&gt;&lt;br/&gt;______________________________________&lt;br/&gt;STERNA’s mission is to highlight the fascination and uniqueness of wildlife and nature. In particular, it aims to find ways to generate attention and interest through creative editing that deviates from standard photographic representations and general rules. &lt;br/&gt;&lt;br/&gt;Technically, it is very much in line with modern photography, using only conventional photo editing methods and without extensive use of artificial intelligence intelligence. &lt;br/&gt;&lt;br/&gt;@achimsterna #peopleschoice #comedywildlife #funnyanimals #win500 #judgingtime #prints</description>
       <guid isPermaLink="false">https://www.instagram.com/p/DSKfbZljLTV/</guid>
       <pubDate>Fri, 12 Dec 2025 12:46:49 +0000</pubDate>
     </item>
     <item>
-      <title>It’s your turn to be the judges!  Don’t trust the professionals, what do they know??
-
-The Sterna Peo</title>
+      <title>It’s your turn to be the judges!  Don’t trust the professionals, what do they know??  The Sterna Peo</title>
       <link>https://www.instagram.com/p/DSM2zvVDMzt/</link>
-      <description>&lt;img src="https://scontent-mxp1-1.cdninstagram.com/v/t51.82787-15/599885624_18549305488060175_4968160615720359734_n.jpg?stp=dst-jpg_e35_tt6&amp;_nc_cat=103&amp;ig_cache_key=Mzc4NjY0MjQzMjE5NzQ0MDI2Mg%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjk1OHg4OTcuc2RyLkMzIn0%3D&amp;_nc_ohc=1W-0U7m13psQ7kNvwHkh0Y1&amp;_nc_oc=Adn14uOfZ2EYYZtuV9dxfKQIwhRFdvBpL9K6otCJsXYf4KFM8t3mtHyymD6IIptPxbLRpSFIP_rpWOq3o9l2S6x9&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;se=8&amp;_nc_ht=scontent-mxp1-1.cdninstagram.com&amp;_nc_gid=MmvA5L3OSKaPPOwCmUl5yg&amp;oh=00_AfoWi7lvxo0xuQ8ngyluBUfRi1ejoKrir1FumSMN7pOZ7Q&amp;oe=6965E802" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;It’s your turn to be the judges!  Don’t trust the professionals, what do they know??&lt;br/&gt;&lt;br/&gt;The Sterna Peoples Choice vote is OPEN. For a chance to win £500 all you need to do is click on the link, and vote for the image you believe is the best of this years 40 finalists. &lt;br/&gt;&lt;br/&gt;Go to the link on our profile!&lt;br/&gt;Or copy and paste this into your browser:&lt;br/&gt;&lt;br/&gt;bit.ly/4pX08zy&lt;br/&gt;&lt;br/&gt;And that’s it!! Two clicks, and maybe £500 to the good!  You will automatically be entered into the prize draw from which a winner will be selected and announced on March 14th. &lt;br/&gt;&lt;br/&gt;Good luck! Get your friends to vote! And anyone else you know!&lt;br/&gt;&lt;br/&gt;📸 Henry Szwinto &lt;br/&gt;&lt;br/&gt;______________________________________&lt;br/&gt;STERNA’s mission is to highlight the fascination and uniqueness of wildlife and nature. In particular, it aims to find ways to generate attention and interest through creative editing that deviates from standard photographic representations and general rules. &lt;br/&gt;&lt;br/&gt;Technically, it is very much in line with modern photography, using only conventional photo editing methods and without extensive use of artificial intelligence intelligence. &lt;br/&gt;&lt;br/&gt;@achimsterna #peopleschoice #comedywildlife #funnyanimals #win500 #judgingtime #prints #peekaboo</description>
+      <description>It’s your turn to be the judges!  Don’t trust the professionals, what do they know??&lt;br/&gt;&lt;br/&gt;The Sterna Peoples Choice vote is OPEN. For a chance to win £500 all you need to do is click on the link, and vote for the image you believe is the best of this years 40 finalists. &lt;br/&gt;&lt;br/&gt;Go to the link on our profile!&lt;br/&gt;Or copy and paste this into your browser:&lt;br/&gt;&lt;br/&gt;bit.ly/4pX08zy&lt;br/&gt;&lt;br/&gt;And that’s it!! Two clicks, and maybe £500 to the good!  You will automatically be entered into the prize draw from which a winner will be selected and announced on March 14th. &lt;br/&gt;&lt;br/&gt;Good luck! Get your friends to vote! And anyone else you know!&lt;br/&gt;&lt;br/&gt;📸 Henry Szwinto &lt;br/&gt;&lt;br/&gt;______________________________________&lt;br/&gt;STERNA’s mission is to highlight the fascination and uniqueness of wildlife and nature. In particular, it aims to find ways to generate attention and interest through creative editing that deviates from standard photographic representations and general rules. &lt;br/&gt;&lt;br/&gt;Technically, it is very much in line with modern photography, using only conventional photo editing methods and without extensive use of artificial intelligence intelligence. &lt;br/&gt;&lt;br/&gt;@achimsterna #peopleschoice #comedywildlife #funnyanimals #win500 #judgingtime #prints #peekaboo</description>
       <guid isPermaLink="false">https://www.instagram.com/p/DSM2zvVDMzt/</guid>
       <pubDate>Sat, 13 Dec 2025 10:49:36 +0000</pubDate>
     </item>
     <item>
-      <title>Come on down to the South Bank, London. Last day today at The OXO Gallery!! 
-
-Books, calendars, card</title>
+      <title>Come on down to the South Bank, London. Last day today at The OXO Gallery!!   Books, calendars, card</title>
       <link>https://www.instagram.com/p/DSPoC1yDBfZ/</link>
-      <description>&lt;img src="https://scontent-mxp2-1.cdninstagram.com/v/t51.71878-15/598719113_1363374128581791_8172926129585603235_n.jpg?stp=dst-jpg_e15_p360x360_tt6&amp;_nc_cat=100&amp;ig_cache_key=Mzc4NzQyMTkyODY4OTI0NDEyMQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjY0MHgxMTM2LnNkci5DMyJ9&amp;_nc_ohc=I7QYiUdzm1cQ7kNvwFRvqzb&amp;_nc_oc=AdmEfk1_mTdceUp0Vsu5D3ziSgORwiuZ_LLsK6C2ZNIlLp9S2lnGiPklc-ruh6kGc8vGS51dkoOjj2pGMUSWgQoG&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-mxp2-1.cdninstagram.com&amp;_nc_gid=MmvA5L3OSKaPPOwCmUl5yg&amp;oh=00_AfompuunCLGyR635ve_jbQXKARLK9Q34MCj94uqVUIPEGA&amp;oe=6965E158" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;Come on down to the South Bank, London. Last day today at The OXO Gallery!! &lt;br/&gt;&lt;br/&gt;Books, calendars, cards available for last minute stocking fillers!! &lt;br/&gt;&lt;br/&gt;@nikoneurope @hahnemuehle_uk @alexwalkerserian @amazinginternet @thinktankphoto @sullamphoto #stockingstuffers</description>
+      <description>Come on down to the South Bank, London. Last day today at The OXO Gallery!! &lt;br/&gt;&lt;br/&gt;Books, calendars, cards available for last minute stocking fillers!! &lt;br/&gt;&lt;br/&gt;@nikoneurope @hahnemuehle_uk @alexwalkerserian @amazinginternet @thinktankphoto @sullamphoto #stockingstuffers</description>
       <guid isPermaLink="false">https://www.instagram.com/p/DSPoC1yDBfZ/</guid>
       <pubDate>Sun, 14 Dec 2025 12:40:41 +0000</pubDate>
     </item>
     <item>
-      <title>You are all awesome for following and liking our hilarious collection of wild animals. 
-
-Thank you. </title>
+      <title>You are all awesome for following and liking our hilarious collection of wild animals.   Thank you. </title>
       <link>https://www.instagram.com/p/DSr1QkBDHUa/</link>
-      <description>&lt;img src="https://scontent-mxp1-1.cdninstagram.com/v/t51.82787-15/605875656_18551423905060175_6943423631365340316_n.jpg?stp=dst-jpg_e35_s1080x1080_tt6&amp;_nc_cat=106&amp;ig_cache_key=Mzc5NTM2MTM0NTYzODc5MDQyNg%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4OTYwLnNkci5DMyJ9&amp;_nc_ohc=bZqAYSGeQSYQ7kNvwF2_PBX&amp;_nc_oc=AdlC4PthSdWo6-5-uuwE9OWuB_AkN-racTjZE9wSg1aIJ7_ys4kiXcczi9MMBPWoX2YAOeSIkI5sBIDdfcURiPMK&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-mxp1-1.cdninstagram.com&amp;_nc_gid=MmvA5L3OSKaPPOwCmUl5yg&amp;oh=00_AfoS1fZ3MTyWJ0Q64QQL2bR9MDK_xPqYjU5BCB4yXyOWug&amp;oe=6965F2B2" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;You are all awesome for following and liking our hilarious collection of wild animals. &lt;br/&gt;&lt;br/&gt;Thank you. Xx&lt;br/&gt;&lt;br/&gt;📸 Miroslav Srb</description>
+      <description>You are all awesome for following and liking our hilarious collection of wild animals. &lt;br/&gt;&lt;br/&gt;Thank you. Xx&lt;br/&gt;&lt;br/&gt;📸 Miroslav Srb</description>
       <guid isPermaLink="false">https://www.instagram.com/p/DSr1QkBDHUa/</guid>
       <pubDate>Thu, 25 Dec 2025 11:32:31 +0000</pubDate>
     </item>
     <item>
-      <title>Christmas? ✔️ 
-New Year? ✔️ 
-
-The STERNA Peoples Choice Award? ❌ 
-
-Visit our web site and vote to pr</title>
+      <title>Christmas? ✔️  New Year? ✔️   The STERNA Peoples Choice Award? ❌   Visit our web site and vote to pr</title>
       <link>https://www.instagram.com/p/DTC7tUqjOzh/</link>
-      <description>&lt;img src="https://scontent-mxp1-1.cdninstagram.com/v/t51.71878-15/609856580_1386289429831045_5184045542797635453_n.jpg?stp=dst-jpg_e15_p360x360_tt6&amp;_nc_cat=103&amp;ig_cache_key=MzgwMTg2MzYzNDc2MzQ0MzQyNQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjY0MHgxMTM2LnNkci5DMyJ9&amp;_nc_ohc=mgV4wKdyMIkQ7kNvwGV3BI5&amp;_nc_oc=AdkBdcnbPcZQzeem5lRvlHwUyYZTmCYAYM4LoqpOZU1QwPSOCdvxlXtWWiLCym3NwRpnfrWh3bu6vzH5w9EvawBl&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-mxp1-1.cdninstagram.com&amp;_nc_gid=MmvA5L3OSKaPPOwCmUl5yg&amp;oh=00_Afo3meQQnrOfGjleMkcqAP8s9_Ick6i9JBssYSOJQZjT4g&amp;oe=6965D50A" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;Christmas? ✔️ &lt;br/&gt;New Year? ✔️ &lt;br/&gt;&lt;br/&gt;The STERNA Peoples Choice Award? ❌ &lt;br/&gt;&lt;br/&gt;Visit our web site and vote to prove the judges wrong! One vote for your favourite image. And a chance to win £500!!!&lt;br/&gt;&lt;br/&gt;https://www.comedywildlifephoto.com/peoples-choice-award/vote-peoples-choice-award.php&lt;br/&gt;&lt;br/&gt;GOD LUCK!!!!</description>
+      <description>Christmas? ✔️ &lt;br/&gt;New Year? ✔️ &lt;br/&gt;&lt;br/&gt;The STERNA Peoples Choice Award? ❌ &lt;br/&gt;&lt;br/&gt;Visit our web site and vote to prove the judges wrong! One vote for your favourite image. And a chance to win £500!!!&lt;br/&gt;&lt;br/&gt;https://www.comedywildlifephoto.com/peoples-choice-award/vote-peoples-choice-award.php&lt;br/&gt;&lt;br/&gt;GOD LUCK!!!!</description>
       <guid isPermaLink="false">https://www.instagram.com/p/DTC7tUqjOzh/</guid>
       <pubDate>Sat, 03 Jan 2026 10:54:00 +0000</pubDate>
     </item>
     <item>
-      <title>Christmas? ✔️ 
-New Year? ✔️ 
-
-The STERNA Peoples Choice Award? ❌ 
-
-Visit our web site and vote to pr</title>
+      <title>Christmas? ✔️  New Year? ✔️   The STERNA Peoples Choice Award? ❌   Visit our web site and vote to pr</title>
       <link>https://www.instagram.com/p/DTD16d3DGjJ/</link>
-      <description>&lt;img src="https://scontent-mxp2-1.cdninstagram.com/v/t51.71878-15/608845921_1361259228524192_917021709585615657_n.jpg?stp=dst-jpg_e15_p360x360_tt6&amp;_nc_cat=101&amp;ig_cache_key=MzgwMjExOTYyNDY4NzY0MjgyNQ%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjY0MHgxMTM2LnNkci5DMyJ9&amp;_nc_ohc=Vk0nEf1vP7MQ7kNvwELmSZb&amp;_nc_oc=Adlmu7n16FYZTg2CNJJCTN97shT0yALSQ_pfd0dAmtxftheke7UECSlGqhtLGc-0r4DQ1yzq0t8lDmhzKryv1NGq&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-mxp2-1.cdninstagram.com&amp;_nc_gid=MmvA5L3OSKaPPOwCmUl5yg&amp;oh=00_Afpfq2lVh0Eebmg4cb0jaa-ZR8kTCkDKeGsYkM5Q_ZJxHA&amp;oe=6965EAC8" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;Christmas? ✔️ &lt;br/&gt;New Year? ✔️ &lt;br/&gt;&lt;br/&gt;The STERNA Peoples Choice Award? ❌ &lt;br/&gt;&lt;br/&gt;Visit our web site and vote to prove the judges wrong! One vote for your favourite image. And a chance to win £500!!!&lt;br/&gt;&lt;br/&gt;https://www.comedywildlifephoto.com/peoples-choice-award/vote-peoples-choice-award.php&lt;br/&gt;&lt;br/&gt;GOD LUCK!!!!&lt;br/&gt;&lt;br/&gt;@achimsterna @kmhumble @pj_hicks @sullamphoto @thinktankphoto @spectrumlab @alexwalkerserian @amazinginternet</description>
+      <description>Christmas? ✔️ &lt;br/&gt;New Year? ✔️ &lt;br/&gt;&lt;br/&gt;The STERNA Peoples Choice Award? ❌ &lt;br/&gt;&lt;br/&gt;Visit our web site and vote to prove the judges wrong! One vote for your favourite image. And a chance to win £500!!!&lt;br/&gt;&lt;br/&gt;https://www.comedywildlifephoto.com/peoples-choice-award/vote-peoples-choice-award.php&lt;br/&gt;&lt;br/&gt;GOD LUCK!!!!&lt;br/&gt;&lt;br/&gt;@achimsterna @kmhumble @pj_hicks @sullamphoto @thinktankphoto @spectrumlab @alexwalkerserian @amazinginternet</description>
       <guid isPermaLink="false">https://www.instagram.com/p/DTD16d3DGjJ/</guid>
       <pubDate>Sat, 03 Jan 2026 19:21:16 +0000</pubDate>
     </item>
     <item>
-      <title>Give yourself the chance to win £500!!
-
-Super duper easy. 
-
-Just visit our site and vote for the ima</title>
+      <title>Give yourself the chance to win £500!!  Super duper easy.   Just visit our site and vote for the ima</title>
       <link>https://www.instagram.com/p/DTK5YMHDG_V/</link>
-      <description>&lt;img src="https://scontent-mxp2-1.cdninstagram.com/v/t51.71878-15/611377743_1276159507680316_8862385263584959919_n.jpg?stp=dst-jpg_e15_p360x360_tt6&amp;_nc_cat=109&amp;ig_cache_key=MzgwNDEwNTE4NjE4OTUzNzIzNw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjY0MHg4MDAuc2RyLkMzIn0%3D&amp;_nc_ohc=LBmCEqMLkW0Q7kNvwER9crr&amp;_nc_oc=AdkQqHftztwuqNF1_9zR3FRpfLf_wqfU9V-s76Ht1UDltbD9P3Ip3Lsg7qJJFWflMorpBX6Ns2kYX4e8Cc86RpSv&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-mxp2-1.cdninstagram.com&amp;_nc_gid=MmvA5L3OSKaPPOwCmUl5yg&amp;oh=00_AfoxIGuDiJ67gFTW9fKq3RT75Y3DLlg8tOrqctywnrEjiQ&amp;oe=6965CEC6" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;Give yourself the chance to win £500!!&lt;br/&gt;&lt;br/&gt;Super duper easy. &lt;br/&gt;&lt;br/&gt;Just visit our site and vote for the image you love the most from our 2025 competition. &lt;br/&gt;&lt;br/&gt;And that’s it!! You’re done!!&lt;br/&gt;&lt;br/&gt;@achimsterna @thinktankphoto @alexwalkerserian @spectrumlab @amazinginternet @nikoneurope #peopleschoice #funnyanimals #comedywildlife #youbethejudge</description>
+      <description>Give yourself the chance to win £500!!&lt;br/&gt;&lt;br/&gt;Super duper easy. &lt;br/&gt;&lt;br/&gt;Just visit our site and vote for the image you love the most from our 2025 competition. &lt;br/&gt;&lt;br/&gt;And that’s it!! You’re done!!&lt;br/&gt;&lt;br/&gt;@achimsterna @thinktankphoto @alexwalkerserian @spectrumlab @amazinginternet @nikoneurope #peopleschoice #funnyanimals #comedywildlife #youbethejudge</description>
       <guid isPermaLink="false">https://www.instagram.com/p/DTK5YMHDG_V/</guid>
       <pubDate>Tue, 06 Jan 2026 13:08:24 +0000</pubDate>
     </item>
     <item>
-      <title>‘Emergency landing’
-📸 Michael Dowds
-
-If only all birds were this considerate….
-
-#comedywildlife #fun</title>
+      <title>‘Emergency landing’ 📸 Michael Dowds  If only all birds were this considerate....  #comedywildlife #f</title>
       <link>https://www.instagram.com/p/DTPu9ROiH8n/</link>
-      <description>&lt;img src="https://scontent-mxp2-1.cdninstagram.com/v/t51.82787-15/610716199_18554000332060175_6920906671156296035_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&amp;_nc_cat=110&amp;ig_cache_key=MzgwNTQ2NjczMDY3NjM4NzYyMw%3D%3D.3-ccb7-5&amp;ccb=7-5&amp;_nc_sid=58cdad&amp;efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMC5zZHIuQzMifQ%3D%3D&amp;_nc_ohc=onse4b-ZlvwQ7kNvwEgUfve&amp;_nc_oc=AdnW2HYewCMyhDYPspaCgIBcyFBNwJkfxjw7I8PQPjRIiugadIGCOOKdO6ycSMCf6Q1Pxn_9vE3XBomD7B41PY1P&amp;_nc_ad=z-m&amp;_nc_cid=0&amp;_nc_zt=23&amp;_nc_ht=scontent-mxp2-1.cdninstagram.com&amp;_nc_gid=MmvA5L3OSKaPPOwCmUl5yg&amp;oh=00_AfpC5bfyPrSFCsny6yQymNfbo6fqlN9dQFiiNt9NU6oirQ&amp;oe=6965FC56" alt="Instagram post"/&gt;&lt;br/&gt;&lt;br/&gt;‘Emergency landing’&lt;br/&gt;📸 Michael Dowds&lt;br/&gt;&lt;br/&gt;If only all birds were this considerate….&lt;br/&gt;&lt;br/&gt;#comedywildlife #funnyanimals #birdpoo #seagulls &lt;br/&gt;&lt;br/&gt;@thinktankphoto @nikoneurope @alexwalkerserian @sullamphoto @pj_hicks @kmhumble</description>
+      <description>‘Emergency landing’&lt;br/&gt;📸 Michael Dowds&lt;br/&gt;&lt;br/&gt;If only all birds were this considerate....&lt;br/&gt;&lt;br/&gt;#comedywildlife #funnyanimals #birdpoo #seagulls &lt;br/&gt;&lt;br/&gt;@thinktankphoto @nikoneurope @alexwalkerserian @sullamphoto @pj_hicks @kmhumble</description>
       <guid isPermaLink="false">https://www.instagram.com/p/DTPu9ROiH8n/</guid>
       <pubDate>Thu, 08 Jan 2026 10:10:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>‘I hate IKEA’ 📸 Brian Hempstead  Worth zooming in to see the bird - really one of the most incredibl</title>
+      <link>https://www.instagram.com/p/DTSPqTFDBr0/</link>
+      <description>‘I hate IKEA’ 📸 Brian Hempstead&lt;br/&gt;&lt;br/&gt;Worth zooming in to see the bird - really one of the most incredible structures we’ve ever seen...&lt;br/&gt;&lt;br/&gt;@alexwalkerserian @thinktankphoto @amazinginternet @kmhumble @bbcwildlifemagazine @ikeauk #comedywildlife #funnyanimals #architecture #buildingsofinstagram #birdsofinstagram</description>
+      <guid isPermaLink="false">https://www.instagram.com/p/DTSPqTFDBr0/</guid>
+      <pubDate>Fri, 09 Jan 2026 09:34:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Jumping into the weekend .....   📸 Jeremy Duvekot  #tgif #jumpingintotheweekend #deerofinstagram #bo</title>
+      <link>https://www.instagram.com/p/DTTJSl5jMNn/</link>
+      <description>Jumping into the weekend ..... &lt;br/&gt;&lt;br/&gt;📸 Jeremy Duvekot&lt;br/&gt;&lt;br/&gt;#tgif #jumpingintotheweekend #deerofinstagram #bounce #comedywildlife &lt;br/&gt;&lt;br/&gt;@thinktankphoto @alexwalkerserian @bbcwildlifemagazine @sullamphoto @pj_hicks @kmhumble @nikoneurope</description>
+      <guid isPermaLink="false">https://www.instagram.com/p/DTTJSl5jMNn/</guid>
+      <pubDate>Fri, 09 Jan 2026 17:57:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Joining the line to quit dry January...   📸 Martin Schmid  #diving #penguinsofinstagram #dryjanuary </title>
+      <link>https://www.instagram.com/p/DTVk4y5DFUe/</link>
+      <description>Joining the line to quit dry January... &lt;br/&gt;&lt;br/&gt;📸 Martin Schmid&lt;br/&gt;&lt;br/&gt;#diving #penguinsofinstagram #dryjanuary #comedywildlife #fail &lt;br/&gt;&lt;br/&gt;@thinktankphoto @alexwalkerserian @bbcwildlifemagazine @sullamphoto @pj_hicks @kmhumble @nikoneurope @specsavers @innocent</description>
+      <guid isPermaLink="false">https://www.instagram.com/p/DTVk4y5DFUe/</guid>
+      <pubDate>Sat, 10 Jan 2026 16:37:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>‘I give up, no idea where you’re hiding’  📸 Peter Batty  #funnyanimals #deerofinstagram #letsplay #c</title>
+      <link>https://www.instagram.com/p/DTXaE2DjFtc/</link>
+      <description>‘I give up, no idea where you’re hiding’&lt;br/&gt;&lt;br/&gt;📸 Peter Batty&lt;br/&gt;&lt;br/&gt;#funnyanimals #deerofinstagram #letsplay #comedywildlife #hideandseek &lt;br/&gt;&lt;br/&gt;@thinktankphoto @alexwalkerserian @bbcwildlifemagazine @sullamphoto @pj_hicks @kmhumble @nikoneurope @specsavers @innocent</description>
+      <guid isPermaLink="false">https://www.instagram.com/p/DTXaE2DjFtc/</guid>
+      <pubDate>Sun, 11 Jan 2026 09:41:34 +0000</pubDate>
     </item>
   </channel>
 </rss>
