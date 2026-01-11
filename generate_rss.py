@@ -13,6 +13,21 @@ SESSION_FILE = "ig_session.json"
 
 def ig_login():
     cl = Client()
+    
+    cl.set_device({
+        "app_version": "302.0.0.23.109",
+        "android_version": 0,  # not used for iOS
+        "android_release": "",
+        "dpi": "326dpi",
+        "resolution": "1170x2532",
+        "manufacturer": "Apple",
+        "device": "iPhone13,4",
+        "model": "iPhone",
+        "cpu": "arm64-v8a",
+        "version_code": "302001109",
+        "platform": "iOS",
+        "os_version": "17.1"
+    })
 
     if os.path.exists(SESSION_FILE):
         cl.load_settings(SESSION_FILE)
@@ -22,6 +37,7 @@ def ig_login():
 
     try:
         cl.login(username, password)
+        return cl
 
     except TwoFactorRequired:
         secret = os.environ.get("IG_TOTP_SECRET")
